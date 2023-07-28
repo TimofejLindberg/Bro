@@ -1,0 +1,2084 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sell: Компов и ноутов от "BRO"</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icons8-пивная-кружка-48.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card-bs" id="basket">
+            <img src="icons8-корзина-96.png" alt="" class="basket-img">
+            <div class="total-price"></div>
+        </div>
+        <div id="cart-items">
+            <ol id="list-item">
+            </ol>
+            <div class="total-text">
+                <p>Всего: </p>
+                <p id="total-price"></p>
+            </div>
+            <a class="btn-basket" href="icons8-корзина-96.png" style="display: none;">Оформить заказ</a>
+        </div>
+        <div class="like-list">
+            <div class="lower">
+              <svg
+              class="heart-lower"
+              version="1.0"
+              xmlns="http://www.w3.org/2000/svg"
+              width="35px"
+              height="35px"
+              viewBox="0 0 1280.000000 1244.000000"
+              preserveAspectRatio="xMidYMid meet"
+            >
+              <metadata></metadata>
+              <g
+                transform="translate(0.000000,1244.000000) scale(0.100000,-0.100000)"
+               
+                stroke="none"
+              >
+                <path
+                  d="M3595 10494 c-16 -2 -73 -9 -125 -15 -785 -89 -1525 -534 -1950
+          -1172 -505 -756 -581 -1802 -203 -2762 234 -592 615 -1136 1223 -1746 440
+          -440 761 -713 1790 -1521 723 -568 973 -780 1280 -1088 285 -285 475 -527 591
+          -753 24 -48 46 -87 49 -87 3 0 20 29 38 65 150 304 458 666 907 1066 253 225
+          441 378 1130 919 900 707 1207 970 1640 1404 468 469 775 866 1023 1321 414
+          761 537 1622 342 2391 -112 440 -324 822 -635 1143 -523 540 -1245 841 -2014
+          841 -899 0 -1671 -412 -2116 -1130 -112 -182 -234 -457 -288 -651 -21 -74 -37
+          -101 -37 -61 0 45 -109 334 -184 487 -367 749 -1011 1208 -1876 1335 -75 11
+          -528 22 -585 14z"/>
+              </g>
+            </svg>
+            </div>
+            <div id="lower-message">
+              <ol id="list-item-lower">
+              </ol>
+            </div>
+          </div>
+        <div class="scroll-block">
+            <a href="#head">
+                <img src="https://img.icons8.com/?size=512&id=26209&format=png" alt="">
+            </a>
+        </div>
+
+        <header >
+            <img src="icons8-redux-100.png" alt="" class="logo">
+            <nav>
+
+                <a href="/">Главная</a>
+                <a href="#about">О нас</a>
+                <a href="#product">Магазин</a>
+                <a href="#delivery">Доставка</a>
+                <a href="#contacts">Контакты</a>
+
+            </nav>
+            <div class="search">
+                <input type="search" name="search" id="search" placeholder="Искать">
+                <label for="search">
+                  <img src="icons8-поиск-100.png" alt="поиск" class="search-icon" />
+                </label>
+              
+              </div>
+              <div id="results"></div>
+        </header>
+        <div class="head-block" id="head">
+            <div class="head-title">
+                <h1>Sell: Компов и ноутов от "BRO"</h1>
+                <button>SHOP NOW</button>
+            </div>
+        </div>
+        <div class="slider">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="all-card">
+                            <div class="card"
+                                style="background-image: url(https://img.freepik.com/free-photo/electronic-device-balancing-concept_23-2150422322.jpg?size=626&ext=jpg&ga=GA1.1.1538677273.1674988486&semt=sph); ">
+                              
+                               
+                            </div>
+                            <div class="card card2"
+                                style="background-image: url(https://img.freepik.com/premium-photo/phone-computer-tablet_969264-2107.jpg?size=626&ext=jpg&ga=GA1.2.1538677273.1674988486&semt=sph); ">
+                                <h2>MackBook</h2>
+                               
+                            </div>
+                            <div class="card"
+                                style="background-image: url(https://img.freepik.com/free-photo/laptop-table_53876-176755.jpg?size=626&ext=jpg&ga=GA1.1.1538677273.1674988486&semt=sph); ">
+                              
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="all-card">
+                            <div class="card"
+                                style="background-image: url(https://img.freepik.com/free-photo/view-illuminated-neon-gaming-keyboard-setup-controller_23-2149529372.jpg?size=626&ext=jpg&ga=GA1.1.1538677273.1674988486&semt=ais); ">
+                           
+                               
+                            </div>
+                            <div class="card card2"
+                                style="background-image: url(https://img.freepik.com/free-photo/high-angle-gaming-setup-arrangement_23-2149680238.jpg?size=626&ext=jpg&ga=GA1.1.1538677273.1674988486&semt=ais); ">
+                                <h2>Acssesuars</h2>
+                               
+                            </div>
+                            <div class="card"
+                                style="background-image: url(https://img.freepik.com/free-photo/high-angle-controller-with-vr-glasses_23-2149829178.jpg?size=626&ext=jpg&ga=GA1.1.1538677273.1674988486&semt=ais); ">
+                              
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="all-card">
+                            <div class="card"
+                                style="background-image: url(https://img.freepik.com/free-photo/gamer-woman-pressing-start-button-rgb-computer-during-space-shoother-videogames-during-online-competition-standing-gaming-studio-professional-esports-gamer-operating-pc-system_482257-33483.jpg?w=740&t=st=1690523198~exp=1690523798~hmac=91e7d29924c420b5816655d1c83c2fe8bc95654080bfc79983c727fa50a38ab7); ">
+                            
+                               
+                            </div>
+                            <div class="card card2"
+                                style="background-image: url(https://img.freepik.com/premium-photo/gaming-pc-with-rgb-led-lights-computer-assembled-with-hardware-components_735136-10.jpg?w=900); ">
+                                <h2>PK Game</h2>
+                               
+                            </div>
+                            <div class="card"
+                                style="background-image: url(https://img.freepik.com/free-photo/player-woman-pressing-start-button-rgb-computer-during-space-shoother-video-games-during-online-championship-standing-gaming-studio-professional-esports-gamer-operating-pc-system_482257-29256.jpg?w=740&t=st=1690523224~exp=1690523824~hmac=c2e968d4f6d5a042716f203be427b1aacec73d457ecd097c6bd608d02560bd43); ">
+                              
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="swiper-slide">
+                        <div class="all-card">
+                            <div class="card"
+                                style="background-image: url(https://ixbt.online/live/images/original/25/50/13/2022/01/07/ffa3659243.jpg); ">
+                                <h2>МакБук</h2>
+                                <a href="" class="card-btn">Добавить в корзину от "BRO"</a>
+                            </div>
+                            <div class="card card2"
+                                style="background-image: url(https://appleinsider.ru/wp-content/uploads/2022/10/mac_pro_2023_processor-750x500.jpg); ">
+                                <h2>Мак Про</h2>
+                                <a href="" class="card-btn">Добавить в корзину от "BRO"</a>
+                            </div>
+                            <div class="card"
+                                style="background-image: url(https://trashbox.ru/ifiles/1747769_1d2c94_2.jpg-orig/best-pc-builds-january-2023-33.jpg); ">
+                                <h2>Лучший компьютер 2023 г.</h2>
+                                <a href="" class="card-btn">Добавить в корзину от "BRO"</a>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+        <div class="product" id="product">
+            <div class="product-line">
+                <div class="line"></div>
+                <div class="txt">КОМПЛЕКТУЮЩИЕ</div>
+            </div>
+            <div class="product-block">
+                <!-- <div class="product-title">Выбирайте лучшие детали для вашего ПК</div> -->
+                <div class="accordion-tabs">
+                    <a href="javascript:void(0)" class="tabs active">Система охлаждения</a>
+                    <a href="javascript:void(0)" class="tabs">Оперативная память</a>
+                    <a href="javascript:void(0)" class="tabs">Видеокарта</a>
+                    <a href="javascript:void(0)" class="tabs">Материнская плата</a>
+                    <a href="javascript:void(0)" class="tabs">Процессор</a>
+                </div>
+            </div>
+            <div class="accordion-content-all">
+                <div class="content">
+                    <div class="content-card">
+                        <div class="i-card">
+                            <img class="im" src="https://c.dns-shop.ru/thumb/st1/fit/500/500/ff84f76db933c7ed2657e45465a7124e/a219453d0bec26b89333c5747ebbb891c76854687fa2f22cd4b007b507757757.jpg.webp"
+                                alt="">
+                            <div class="con-line">
+                                <a href="javascript:void(0)">
+                                    <svg class="heart" version="1.0" xmlns="http://www.w3.org/2000/svg" width="30px"
+                                        height="30px" viewBox="0 0 1280.000000 1189.000000"
+                                        preserveAspectRatio="xMidYMid meet">
+                                        <metadata>
+
+                                        </metadata>
+                                        <g transform="translate(0.000000,1189.000000) scale(0.100000,-0.100000)"
+                                            stroke="none">
+                                            <path d="M3250 11884 c-25 -2 -106 -11 -180 -20 -1485 -172 -2704 -1295 -3001
+                                   -2764 -133 -660 -67 -1507 171 -2223 252 -753 675 -1411 1397 -2172 342 -360
+                                   634 -630 1588 -1470 231 -203 488 -430 570 -505 1024 -920 1735 -1692 2346
+                                   -2547 l130 -183 132 0 132 1 130 192 c557 822 1212 1560 2185 2461 191 178
+                                   408 373 1027 923 956 852 1445 1343 1841 1850 643 825 968 1603 1064 2553 19
+                                   196 17 665 -5 835 -105 805 -441 1497 -998 2054 -557 557 -1250 894 -2054 998
+                                   -193 24 -613 24 -810 0 -733 -93 -1379 -387 -1920 -874 -191 -172 -406 -417
+                                   -535 -610 -30 -45 -57 -82 -60 -82 -3 0 -30 37 -60 82 -129 193 -344 438 -535
+                                   610 -531 478 -1170 773 -1878 867 -146 20 -562 34 -677 24z" />
+                                        </g>
+                                    </svg>
+                                </a>
+                                <button class="basket">
+                                    <img src="icons8-корзина-60.png" alt="">
+                                </button>
+                                <a href="">
+                                    <img src="icons8-информация-128.png" alt="">
+                                </a>
+                            </div>
+                            <div class="con-txt">
+                                <h3>Кулер для процессора DEEPCOOL Theta 21 PWM [DP-ICAP-T21P]</h3>
+                                <div class="foter-txt">
+                                    <p class="price">500.00$<span>400.00$</span></p>
+                                </div>
+                            </div>
+                            <div class="stars"><img src="star.svg" alt=""></div>
+                        </div>
+                
+                    </div>
+                    <div class="content-card">
+                        <div class="i-card">
+                            <img class="im" src="https://c.dns-shop.ru/thumb/st4/fit/500/500/1a5263271c3dad32325cba17d7ffb707/bff788409393c81890323af070566e0dfd089c0619bb16c1f6ecc74ef60a517e.jpg.webp"
+                                alt="">
+                            <div class="con-line">
+                                <a href="javascript:void(0)">
+                                    <svg class="heart" version="1.0" xmlns="http://www.w3.org/2000/svg" width="30px"
+                                        height="30px" viewBox="0 0 1280.000000 1189.000000"
+                                        preserveAspectRatio="xMidYMid meet">
+                                        <metadata>
+                                            Created by potrace 1.15, written by Peter Selinger 2001-2017
+                                        </metadata>
+                                        <g transform="translate(0.000000,1189.000000) scale(0.100000,-0.100000)"
+                                            stroke="none">
+                                            <path d="M3250 11884 c-25 -2 -106 -11 -180 -20 -1485 -172 -2704 -1295 -3001
+                                   -2764 -133 -660 -67 -1507 171 -2223 252 -753 675 -1411 1397 -2172 342 -360
+                                   634 -630 1588 -1470 231 -203 488 -430 570 -505 1024 -920 1735 -1692 2346
+                                   -2547 l130 -183 132 0 132 1 130 192 c557 822 1212 1560 2185 2461 191 178
+                                   408 373 1027 923 956 852 1445 1343 1841 1850 643 825 968 1603 1064 2553 19
+                                   196 17 665 -5 835 -105 805 -441 1497 -998 2054 -557 557 -1250 894 -2054 998
+                                   -193 24 -613 24 -810 0 -733 -93 -1379 -387 -1920 -874 -191 -172 -406 -417
+                                   -535 -610 -30 -45 -57 -82 -60 -82 -3 0 -30 37 -60 82 -129 193 -344 438 -535
+                                   610 -531 478 -1170 773 -1878 867 -146 20 -562 34 -677 24z" />
+                                        </g>
+                                    </svg>
+                                </a>
+                                <button class="basket">
+                                    <img src="icons8-корзина-60.png" alt="">
+                                </button>
+                                <a href="">
+                                    <img src="icons8-информация-128.png" alt="">
+                                </a>
+                            </div>
+                            <div class="con-txt">
+                                <h3>Кулер для процессора DEEPCOOL AG500 BK ARGB [R-AG500-BKANMN-G-1]</h3>
+                                <div class="foter-txt">
+                                    <p class="price">500.00$<span>400.00$</span></p>
+                                </div>
+                            </div>
+                            <div class="stars"><img src="star.svg" alt=""></div>
+                        </div>
+                        
+                    </div>
+                    <div class="content-card">
+                        <div class="i-card">
+                            <img class="im" src="https://c.dns-shop.ru/thumb/st4/fit/500/500/1f26a49fab97475907cd10b96a24f018/a6dcb3a808138294e2ecbb104e2cc1c325a958eb20e38dd366e00c4ae7a9c3c7.jpg.webp"
+                                alt="">
+                            <div class="con-line">
+                                <a href="javascript:void(0)">
+                                    <svg class="heart" version="1.0" xmlns="http://www.w3.org/2000/svg" width="30px"
+                                        height="30px" viewBox="0 0 1280.000000 1189.000000"
+                                        preserveAspectRatio="xMidYMid meet">
+                                        <metadata>
+                                            Created by potrace 1.15, written by Peter Selinger 2001-2017
+                                        </metadata>
+                                        <g transform="translate(0.000000,1189.000000) scale(0.100000,-0.100000)"
+                                            stroke="none">
+                                            <path d="M3250 11884 c-25 -2 -106 -11 -180 -20 -1485 -172 -2704 -1295 -3001
+                                   -2764 -133 -660 -67 -1507 171 -2223 252 -753 675 -1411 1397 -2172 342 -360
+                                   634 -630 1588 -1470 231 -203 488 -430 570 -505 1024 -920 1735 -1692 2346
+                                   -2547 l130 -183 132 0 132 1 130 192 c557 822 1212 1560 2185 2461 191 178
+                                   408 373 1027 923 956 852 1445 1343 1841 1850 643 825 968 1603 1064 2553 19
+                                   196 17 665 -5 835 -105 805 -441 1497 -998 2054 -557 557 -1250 894 -2054 998
+                                   -193 24 -613 24 -810 0 -733 -93 -1379 -387 -1920 -874 -191 -172 -406 -417
+                                   -535 -610 -30 -45 -57 -82 -60 -82 -3 0 -30 37 -60 82 -129 193 -344 438 -535
+                                   610 -531 478 -1170 773 -1878 867 -146 20 -562 34 -677 24z" />
+                                        </g>
+                                    </svg>
+                                </a>
+                                <button class="basket">
+                                    <img src="icons8-корзина-60.png" alt="">
+                                </button>
+                                <a href="">
+                                    <img src="icons8-информация-128.png" alt="">
+                                </a>
+                            </div>
+                            <div class="con-txt">
+                                <h3>Кулер для процессора ID-COOLING SE-226-XT ARGB SNOW [SE-226-XT ARGB SNOW]</h3>
+                                <div class="foter-txt">
+                                    <p class="price">500.00$<span>400.00$</span></p>
+                                </div>
+                            </div>
+                            <div class="stars"><img src="star.svg" alt=""></div>
+                        </div>
+                        
+                    </div>
+                    <div class="content-card">
+                        <div class="i-card">
+                            <img class="im" src="https://c.dns-shop.ru/thumb/st1/fit/500/500/46a8f819fc35a3017f056aa685bd50dd/80457b742569dfae20f33ba3708781c230e459821947d1898b5438d140df69e5.jpg.webp"
+                                alt="">
+                            <div class="con-line">
+                                <a href="javascript:void(0)">
+                                    <svg class="heart" version="1.0" xmlns="http://www.w3.org/2000/svg" width="30px"
+                                        height="30px" viewBox="0 0 1280.000000 1189.000000"
+                                        preserveAspectRatio="xMidYMid meet">
+                                        <metadata>
+                                            Created by potrace 1.15, written by Peter Selinger 2001-2017
+                                        </metadata>
+                                        <g transform="translate(0.000000,1189.000000) scale(0.100000,-0.100000)"
+                                            stroke="none">
+                                            <path d="M3250 11884 c-25 -2 -106 -11 -180 -20 -1485 -172 -2704 -1295 -3001
+                                   -2764 -133 -660 -67 -1507 171 -2223 252 -753 675 -1411 1397 -2172 342 -360
+                                   634 -630 1588 -1470 231 -203 488 -430 570 -505 1024 -920 1735 -1692 2346
+                                   -2547 l130 -183 132 0 132 1 130 192 c557 822 1212 1560 2185 2461 191 178
+                                   408 373 1027 923 956 852 1445 1343 1841 1850 643 825 968 1603 1064 2553 19
+                                   196 17 665 -5 835 -105 805 -441 1497 -998 2054 -557 557 -1250 894 -2054 998
+                                   -193 24 -613 24 -810 0 -733 -93 -1379 -387 -1920 -874 -191 -172 -406 -417
+                                   -535 -610 -30 -45 -57 -82 -60 -82 -3 0 -30 37 -60 82 -129 193 -344 438 -535
+                                   610 -531 478 -1170 773 -1878 867 -146 20 -562 34 -677 24z" />
+                                        </g>
+                                    </svg>
+                                </a>
+                                <button class="basket">
+                                    <img src="icons8-корзина-60.png" alt="">
+                                </button>
+                                <a href="">
+                                    <img src="icons8-информация-128.png" alt="">
+                                </a>
+                            </div>
+                            <div class="con-txt">
+                                <h3>Материнская плата B75</h3>
+                                <div class="foter-txt">
+                                    <p class="price">500.00$<span>400.00$</span></p>
+                                </div>
+                            </div>
+                            <div class="stars"><img src="star.svg" alt=""></div>
+                        </div>
+                       
+                    </div>
+                    <div class="content-card">
+                        <div class="i-card">
+                            <img class="im" src="https://c.dns-shop.ru/thumb/st4/fit/500/500/aba1b207f52de801d64c6381040dd0bb/00664c0e1506e51e7335250a30480dd486be190ffedf488240191cc64ea11c2c.jpg.webp"
+                                alt="">
+                            <div class="con-line">
+                                <a href="javascript:void(0)">
+                                    <svg class="heart" version="1.0" xmlns="http://www.w3.org/2000/svg" width="30px"
+                                        height="30px" viewBox="0 0 1280.000000 1189.000000"
+                                        preserveAspectRatio="xMidYMid meet">
+                                        <metadata>
+                                            Created by potrace 1.15, written by Peter Selinger 2001-2017
+                                        </metadata>
+                                        <g transform="translate(0.000000,1189.000000) scale(0.100000,-0.100000)"
+                                            stroke="none">
+                                            <path d="M3250 11884 c-25 -2 -106 -11 -180 -20 -1485 -172 -2704 -1295 -3001
+                                   -2764 -133 -660 -67 -1507 171 -2223 252 -753 675 -1411 1397 -2172 342 -360
+                                   634 -630 1588 -1470 231 -203 488 -430 570 -505 1024 -920 1735 -1692 2346
+                                   -2547 l130 -183 132 0 132 1 130 192 c557 822 1212 1560 2185 2461 191 178
+                                   408 373 1027 923 956 852 1445 1343 1841 1850 643 825 968 1603 1064 2553 19
+                                   196 17 665 -5 835 -105 805 -441 1497 -998 2054 -557 557 -1250 894 -2054 998
+                                   -193 24 -613 24 -810 0 -733 -93 -1379 -387 -1920 -874 -191 -172 -406 -417
+                                   -535 -610 -30 -45 -57 -82 -60 -82 -3 0 -30 37 -60 82 -129 193 -344 438 -535
+                                   610 -531 478 -1170 773 -1878 867 -146 20 -562 34 -677 24z" />
+                                        </g>
+                                    </svg>
+                                </a>
+                                <button class="basket">
+                                    <img src="icons8-корзина-60.png" alt="">
+                                </button>
+                                <a href="">
+                                    <img src="icons8-информация-128.png" alt="">
+                                </a>
+                            </div>
+                            <div class="con-txt">
+                                <h3>Вентилятор ID-COOLING TF Series [TF-12025-ARGB-SNOW]</h3>
+                                <div class="foter-txt">
+                                    <p class="price">500.00$<span>400.00$</span></p>
+                                </div>
+                            </div>
+                            <div class="stars"><img src="star.svg" alt=""></div>
+                        </div>
+                       
+                    </div>
+                    <div class="content-card">
+                        <div class="i-card">
+                            <img class="im" src="https://c.dns-shop.ru/thumb/st4/fit/500/500/7b678683bb0cbecdb76948afa4c86a34/bf9e9e66cf8f46703e198ca60283cf6596701bb8b5ba29d680001a1e12239762.jpg.webp"
+                                alt="">
+                            <div class="con-line">
+                                <a href="javascript:void(0)">
+                                    <svg class="heart" version="1.0" xmlns="http://www.w3.org/2000/svg" width="30px"
+                                        height="30px" viewBox="0 0 1280.000000 1189.000000"
+                                        preserveAspectRatio="xMidYMid meet">
+                                        <metadata>
+                                            Created by potrace 1.15, written by Peter Selinger 2001-2017
+                                        </metadata>
+                                        <g transform="translate(0.000000,1189.000000) scale(0.100000,-0.100000)"
+                                            stroke="none">
+                                            <path d="M3250 11884 c-25 -2 -106 -11 -180 -20 -1485 -172 -2704 -1295 -3001
+                                   -2764 -133 -660 -67 -1507 171 -2223 252 -753 675 -1411 1397 -2172 342 -360
+                                   634 -630 1588 -1470 231 -203 488 -430 570 -505 1024 -920 1735 -1692 2346
+                                   -2547 l130 -183 132 0 132 1 130 192 c557 822 1212 1560 2185 2461 191 178
+                                   408 373 1027 923 956 852 1445 1343 1841 1850 643 825 968 1603 1064 2553 19
+                                   196 17 665 -5 835 -105 805 -441 1497 -998 2054 -557 557 -1250 894 -2054 998
+                                   -193 24 -613 24 -810 0 -733 -93 -1379 -387 -1920 -874 -191 -172 -406 -417
+                                   -535 -610 -30 -45 -57 -82 -60 -82 -3 0 -30 37 -60 82 -129 193 -344 438 -535
+                                   610 -531 478 -1170 773 -1878 867 -146 20 -562 34 -677 24z" />
+                                        </g>
+                                    </svg>
+                                </a>
+                                <button class="basket">
+                                    <img src="icons8-корзина-60.png" alt="">
+                                </button>
+                                <a href="">
+                                    <img src="icons8-информация-128.png" alt="">
+                                </a>
+                            </div>
+                            <div class="con-txt">
+                                <h3>Вентилятор ZALMAN ZM-RFD120A [ZM-RFD120A]</h3>
+                                <div class="foter-txt">
+                                    <p class="price">500.00$<span>400.00$</span></p>
+                                </div>
+                            </div>
+                            <div class="stars"><img src="star.svg" alt=""></div>
+                        </div>
+                        
+                    </div>
+                    <div class="content-card">
+                        <div class="i-card">
+                            <img class="im" src="https://c.dns-shop.ru/thumb/st4/fit/500/500/3d501f9e735436a4f573be8ef05adda9/6c3759eb99ed1c6860882055eae67cbbcc352007a694a481ba53598673646537.jpg.webp"
+                                alt="">
+                            <div class="con-line">
+                                <a href="javascript:void(0)">
+                                    <svg class="heart" version="1.0" xmlns="http://www.w3.org/2000/svg" width="30px"
+                                        height="30px" viewBox="0 0 1280.000000 1189.000000"
+                                        preserveAspectRatio="xMidYMid meet">
+                                        <metadata>
+                                            Created by potrace 1.15, written by Peter Selinger 2001-2017
+                                        </metadata>
+                                        <g transform="translate(0.000000,1189.000000) scale(0.100000,-0.100000)"
+                                            stroke="none">
+                                            <path d="M3250 11884 c-25 -2 -106 -11 -180 -20 -1485 -172 -2704 -1295 -3001
+                                   -2764 -133 -660 -67 -1507 171 -2223 252 -753 675 -1411 1397 -2172 342 -360
+                                   634 -630 1588 -1470 231 -203 488 -430 570 -505 1024 -920 1735 -1692 2346
+                                   -2547 l130 -183 132 0 132 1 130 192 c557 822 1212 1560 2185 2461 191 178
+                                   408 373 1027 923 956 852 1445 1343 1841 1850 643 825 968 1603 1064 2553 19
+                                   196 17 665 -5 835 -105 805 -441 1497 -998 2054 -557 557 -1250 894 -2054 998
+                                   -193 24 -613 24 -810 0 -733 -93 -1379 -387 -1920 -874 -191 -172 -406 -417
+                                   -535 -610 -30 -45 -57 -82 -60 -82 -3 0 -30 37 -60 82 -129 193 -344 438 -535
+                                   610 -531 478 -1170 773 -1878 867 -146 20 -562 34 -677 24z" />
+                                        </g>
+                                    </svg>
+                                </a>
+                                <button class="basket">
+                                    <img src="icons8-корзина-60.png" alt="">
+                                </button>
+                                <a href="">
+                                    <img src="icons8-информация-128.png" alt="">
+                                </a>
+                            </div>
+                            <div class="con-txt">
+                                <h3>Вентилятор DEEPCOOL CF120 [DP-FA-RGB-CF120-1]</h3>
+                                <div class="foter-txt">
+                                    <p class="price">500.00$<span>400.00$</span></p>
+                                </div>
+                            </div>
+                            <div class="stars"><img src="star.svg" alt=""></div>
+                        </div>
+                     
+                    </div>
+                    <div class="content-card">
+                        <div class="i-card">
+                            <img class="im" src="https://c.dns-shop.ru/thumb/st4/fit/500/500/7f30157d9659a398d13e0d6957771be6/60600dd6a8f28515a96ddb47277fb4aa07f5f7f7e077b301640b83f34da6e0ac.jpg.webp"
+                                alt="">
+                            <div class="con-line">
+                                <a href="javascript:void(0)">
+                                    <svg class="heart" version="1.0" xmlns="http://www.w3.org/2000/svg" width="30px"
+                                        height="30px" viewBox="0 0 1280.000000 1189.000000"
+                                        preserveAspectRatio="xMidYMid meet">
+                                        <metadata>
+                                            Created by potrace 1.15, written by Peter Selinger 2001-2017
+                                        </metadata>
+                                        <g transform="translate(0.000000,1189.000000) scale(0.100000,-0.100000)"
+                                            stroke="none">
+                                            <path d="M3250 11884 c-25 -2 -106 -11 -180 -20 -1485 -172 -2704 -1295 -3001
+                                   -2764 -133 -660 -67 -1507 171 -2223 252 -753 675 -1411 1397 -2172 342 -360
+                                   634 -630 1588 -1470 231 -203 488 -430 570 -505 1024 -920 1735 -1692 2346
+                                   -2547 l130 -183 132 0 132 1 130 192 c557 822 1212 1560 2185 2461 191 178
+                                   408 373 1027 923 956 852 1445 1343 1841 1850 643 825 968 1603 1064 2553 19
+                                   196 17 665 -5 835 -105 805 -441 1497 -998 2054 -557 557 -1250 894 -2054 998
+                                   -193 24 -613 24 -810 0 -733 -93 -1379 -387 -1920 -874 -191 -172 -406 -417
+                                   -535 -610 -30 -45 -57 -82 -60 -82 -3 0 -30 37 -60 82 -129 193 -344 438 -535
+                                   610 -531 478 -1170 773 -1878 867 -146 20 -562 34 -677 24z" />
+                                        </g>
+                                    </svg>
+                                </a>
+                                <button class="basket">
+                                    <img src="icons8-корзина-60.png" alt="">
+                                </button>
+                                <a href="">
+                                    <img src="icons8-информация-128.png" alt="">
+                                </a>
+                            </div>
+                            <div class="con-txt">
+                                <h3>Вентилятор Iceberg Thermal IceGALE ARGB 120mm [ICEGALE12A-E0A]</h3>
+                                <div class="foter-txt">
+                                    <p class="price">500.00$<span>400.00$</span></p>
+                                </div>
+                            </div>
+                            <div class="stars"><img src="star.svg" alt=""></div>
+                        </div>
+                       
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="content-card">
+                        <div class="i-card">
+                            <img class="im" src="https://cdn.citilink.ru/2fiJEgGOyawERCUWQS8HgEJ3b0VpZaUFkfQRon-glQA/resizing_type:fit/gravity:sm/width:1200/height:1200/plain/items/1133852_v03_b.jpg"
+                                alt="">
+                            <div class="con-line">
+                                <a href="javascript:void(0)">
+                                    <svg class="heart" version="1.0" xmlns="http://www.w3.org/2000/svg" width="30px"
+                                        height="30px" viewBox="0 0 1280.000000 1189.000000"
+                                        preserveAspectRatio="xMidYMid meet">
+                                        <metadata>
+
+                                        </metadata>
+                                        <g transform="translate(0.000000,1189.000000) scale(0.100000,-0.100000)"
+                                            stroke="none">
+                                            <path d="M3250 11884 c-25 -2 -106 -11 -180 -20 -1485 -172 -2704 -1295 -3001
+                                   -2764 -133 -660 -67 -1507 171 -2223 252 -753 675 -1411 1397 -2172 342 -360
+                                   634 -630 1588 -1470 231 -203 488 -430 570 -505 1024 -920 1735 -1692 2346
+                                   -2547 l130 -183 132 0 132 1 130 192 c557 822 1212 1560 2185 2461 191 178
+                                   408 373 1027 923 956 852 1445 1343 1841 1850 643 825 968 1603 1064 2553 19
+                                   196 17 665 -5 835 -105 805 -441 1497 -998 2054 -557 557 -1250 894 -2054 998
+                                   -193 24 -613 24 -810 0 -733 -93 -1379 -387 -1920 -874 -191 -172 -406 -417
+                                   -535 -610 -30 -45 -57 -82 -60 -82 -3 0 -30 37 -60 82 -129 193 -344 438 -535
+                                   610 -531 478 -1170 773 -1878 867 -146 20 -562 34 -677 24z" />
+                                        </g>
+                                    </svg>
+                                </a>
+                                <button class="basket">
+                                    <img src="icons8-корзина-60.png" alt="">
+                                </button>
+                                <a href="">
+                                    <img src="icons8-информация-128.png" alt="">
+                                </a>
+                            </div>
+                            <div class="con-txt">
+                                <h3>Оперативная память Corsair DOMINATOR PLATINUM RGB CMT16GX4M2C3600C18 DDR4 - 2x 8ГБ 3600,
+                                    DIMM, Ret</h3>
+                                <div class="foter-txt">
+                                    <p class="price">500.00$<span>400.00$</span></p>
+                                </div>
+                            </div>
+                            <div class="stars"><img src="star.svg" alt=""></div>
+                        </div>
+                        
+                    </div>
+                    <div class="content-card">
+                        <div class="i-card">
+                            <img class="im" src="https://c.dns-shop.ru/thumb/st4/fit/500/500/518f81a2345c42bd0fbd3c6879d34583/f555efe07a7124e5ab86d8e9d3ccc520d6330e78db04f9d05d3b020f76beb67d.jpg.webp"
+                                alt="">
+                            <div class="con-line">
+                                <a href="javascript:void(0)">
+                                    <svg class="heart" version="1.0" xmlns="http://www.w3.org/2000/svg" width="30px"
+                                        height="30px" viewBox="0 0 1280.000000 1189.000000"
+                                        preserveAspectRatio="xMidYMid meet">
+                                        <metadata>
+                                            Created by potrace 1.15, written by Peter Selinger 2001-2017
+                                        </metadata>
+                                        <g transform="translate(0.000000,1189.000000) scale(0.100000,-0.100000)"
+                                            stroke="none">
+                                            <path d="M3250 11884 c-25 -2 -106 -11 -180 -20 -1485 -172 -2704 -1295 -3001
+                                   -2764 -133 -660 -67 -1507 171 -2223 252 -753 675 -1411 1397 -2172 342 -360
+                                   634 -630 1588 -1470 231 -203 488 -430 570 -505 1024 -920 1735 -1692 2346
+                                   -2547 l130 -183 132 0 132 1 130 192 c557 822 1212 1560 2185 2461 191 178
+                                   408 373 1027 923 956 852 1445 1343 1841 1850 643 825 968 1603 1064 2553 19
+                                   196 17 665 -5 835 -105 805 -441 1497 -998 2054 -557 557 -1250 894 -2054 998
+                                   -193 24 -613 24 -810 0 -733 -93 -1379 -387 -1920 -874 -191 -172 -406 -417
+                                   -535 -610 -30 -45 -57 -82 -60 -82 -3 0 -30 37 -60 82 -129 193 -344 438 -535
+                                   610 -531 478 -1170 773 -1878 867 -146 20 -562 34 -677 24z" />
+                                        </g>
+                                    </svg>
+                                </a>
+                                <button class="basket">
+                                    <img src="icons8-корзина-60.png" alt="">
+                                </button>
+                                <a href="">
+                                    <img src="icons8-информация-128.png" alt="">
+                                </a>
+                            </div>
+                            <div class="con-txt">
+                                <h3>Оперативная память G.Skill AEGIS [F4-3200C16D-16GIS] 16 ГБ</h3>
+                                <div class="foter-txt">
+                                    <p class="price">500.00$<span>400.00$</span></p>
+                                </div>
+                            </div>
+                            <div class="stars"><img src="star.svg" alt=""></div>
+                        </div>
+                        
+                    </div>
+                    <div class="content-card">
+                        <div class="i-card">
+                            <img class="im" src="https://c.dns-shop.ru/thumb/st1/fit/500/500/266d68bc7574f2e53eb27300e9186997/621ab4ffc5fb0ed79e69055342c521d2c6e13c4fee0f9b6d9d9681f66fa35297.jpg.webp"
+                                alt="">
+                            <div class="con-line">
+                                <a href="javascript:void(0)">
+                                    <svg class="heart" version="1.0" xmlns="http://www.w3.org/2000/svg" width="30px"
+                                        height="30px" viewBox="0 0 1280.000000 1189.000000"
+                                        preserveAspectRatio="xMidYMid meet">
+                                        <metadata>
+                                            Created by potrace 1.15, written by Peter Selinger 2001-2017
+                                        </metadata>
+                                        <g transform="translate(0.000000,1189.000000) scale(0.100000,-0.100000)"
+                                            stroke="none">
+                                            <path d="M3250 11884 c-25 -2 -106 -11 -180 -20 -1485 -172 -2704 -1295 -3001
+                                   -2764 -133 -660 -67 -1507 171 -2223 252 -753 675 -1411 1397 -2172 342 -360
+                                   634 -630 1588 -1470 231 -203 488 -430 570 -505 1024 -920 1735 -1692 2346
+                                   -2547 l130 -183 132 0 132 1 130 192 c557 822 1212 1560 2185 2461 191 178
+                                   408 373 1027 923 956 852 1445 1343 1841 1850 643 825 968 1603 1064 2553 19
+                                   196 17 665 -5 835 -105 805 -441 1497 -998 2054 -557 557 -1250 894 -2054 998
+                                   -193 24 -613 24 -810 0 -733 -93 -1379 -387 -1920 -874 -191 -172 -406 -417
+                                   -535 -610 -30 -45 -57 -82 -60 -82 -3 0 -30 37 -60 82 -129 193 -344 438 -535
+                                   610 -531 478 -1170 773 -1878 867 -146 20 -562 34 -677 24z" />
+                                        </g>
+                                    </svg>
+                                </a>
+                                <button class="basket">
+                                    <img src="icons8-корзина-60.png" alt="">
+                                </button>
+                                <a href="">
+                                    <img src="icons8-информация-128.png" alt="">
+                                </a>
+                            </div>
+                            <div class="con-txt">
+                                <h3>Оперативная память G.Skill RIPJAWS V [F4-3200C16D-16GVKB] 16 ГБ</h3>
+                                <div class="foter-txt">
+                                    <p class="price">500.00$<span>400.00$</span></p>
+                                </div>
+                            </div>
+                            <div class="stars"><img src="star.svg" alt=""></div>
+                        </div>
+                       
+                    </div>
+                    <div class="content-card">
+                        <div class="i-card">
+                            <img class="im" src="https://c.dns-shop.ru/thumb/st4/fit/500/500/e37047550fcfd5baeadf1cf9f9c1e9b6/34d7dc9322046886429111aeec9be840adfd6ec1345ea9003e007f5adc1a6f24.jpg.webp"
+                                alt="">
+                            <div class="con-line">
+                                <a href="javascript:void(0)">
+                                    <svg class="heart" version="1.0" xmlns="http://www.w3.org/2000/svg" width="30px"
+                                        height="30px" viewBox="0 0 1280.000000 1189.000000"
+                                        preserveAspectRatio="xMidYMid meet">
+                                        <metadata>
+                                            Created by potrace 1.15, written by Peter Selinger 2001-2017
+                                        </metadata>
+                                        <g transform="translate(0.000000,1189.000000) scale(0.100000,-0.100000)"
+                                            stroke="none">
+                                            <path d="M3250 11884 c-25 -2 -106 -11 -180 -20 -1485 -172 -2704 -1295 -3001
+                                   -2764 -133 -660 -67 -1507 171 -2223 252 -753 675 -1411 1397 -2172 342 -360
+                                   634 -630 1588 -1470 231 -203 488 -430 570 -505 1024 -920 1735 -1692 2346
+                                   -2547 l130 -183 132 0 132 1 130 192 c557 822 1212 1560 2185 2461 191 178
+                                   408 373 1027 923 956 852 1445 1343 1841 1850 643 825 968 1603 1064 2553 19
+                                   196 17 665 -5 835 -105 805 -441 1497 -998 2054 -557 557 -1250 894 -2054 998
+                                   -193 24 -613 24 -810 0 -733 -93 -1379 -387 -1920 -874 -191 -172 -406 -417
+                                   -535 -610 -30 -45 -57 -82 -60 -82 -3 0 -30 37 -60 82 -129 193 -344 438 -535
+                                   610 -531 478 -1170 773 -1878 867 -146 20 -562 34 -677 24z" />
+                                        </g>
+                                    </svg>
+                                </a>
+                                <button class="basket">
+                                    <img src="icons8-корзина-60.png" alt="">
+                                </button>
+                                <a href="">
+                                    <img src="icons8-информация-128.png" alt="">
+                                </a>
+                            </div>
+                            <div class="con-txt">
+                                <h3>Оперативная память Patriot Viper Venom [PVV532G620C40K] 32 ГБ</h3>
+                                <div class="foter-txt">
+                                    <p class="price">500.00$<span>400.00$</span></p>
+                                </div>
+                            </div>
+                            <div class="stars"><img src="star.svg" alt=""></div>
+                        </div>
+                       
+                    </div>
+                    <div class="content-card">
+                        <div class="i-card">
+                            <img class="im" src="https://c.dns-shop.ru/thumb/st1/fit/500/500/349b2cf21dbfb9a9918a9fbeb908615f/10e7c854290ef2a538ce46665325a334b7612a9ebfd3b9c25771fd3021891081.jpg.webp"
+                                alt="">
+                            <div class="con-line">
+                                <a href="javascript:void(0)">
+                                    <svg class="heart" version="1.0" xmlns="http://www.w3.org/2000/svg" width="30px"
+                                        height="30px" viewBox="0 0 1280.000000 1189.000000"
+                                        preserveAspectRatio="xMidYMid meet">
+                                        <metadata>
+                                            Created by potrace 1.15, written by Peter Selinger 2001-2017
+                                        </metadata>
+                                        <g transform="translate(0.000000,1189.000000) scale(0.100000,-0.100000)"
+                                            stroke="none">
+                                            <path d="M3250 11884 c-25 -2 -106 -11 -180 -20 -1485 -172 -2704 -1295 -3001
+                                   -2764 -133 -660 -67 -1507 171 -2223 252 -753 675 -1411 1397 -2172 342 -360
+                                   634 -630 1588 -1470 231 -203 488 -430 570 -505 1024 -920 1735 -1692 2346
+                                   -2547 l130 -183 132 0 132 1 130 192 c557 822 1212 1560 2185 2461 191 178
+                                   408 373 1027 923 956 852 1445 1343 1841 1850 643 825 968 1603 1064 2553 19
+                                   196 17 665 -5 835 -105 805 -441 1497 -998 2054 -557 557 -1250 894 -2054 998
+                                   -193 24 -613 24 -810 0 -733 -93 -1379 -387 -1920 -874 -191 -172 -406 -417
+                                   -535 -610 -30 -45 -57 -82 -60 -82 -3 0 -30 37 -60 82 -129 193 -344 438 -535
+                                   610 -531 478 -1170 773 -1878 867 -146 20 -562 34 -677 24z" />
+                                        </g>
+                                    </svg>
+                                </a>
+                                <button class="basket">
+                                    <img src="icons8-корзина-60.png" alt="">
+                                </button>
+                                <a href="">
+                                    <img src="icons8-информация-128.png" alt="">
+                                </a>
+                            </div>
+                            <div class="con-txt">
+                                <h3>Оперативная память ADATA XPG GAMMIX D10 [AX4U36008G18I-DB10] 16 ГБ</h3>
+                                <div class="foter-txt">
+                                    <p class="price">500.00$<span>400.00$</span></p>
+                                </div>
+                            </div>
+                            <div class="stars"><img src="star.svg" alt=""></div>
+                        </div>
+                        
+                    </div>
+                    <div class="content-card">
+                        <div class="i-card">
+                            <img class="im"  src="https://img.mvideo.ru/Pdb/30055222b.jpg" alt="">
+                            <div class="con-line">
+                                <a href="">
+                                    <svg class="heart" version="1.0" xmlns="http://www.w3.org/2000/svg" width="30px"
+                                        height="30px" viewBox="0 0 1280.000000 1189.000000"
+                                        preserveAspectRatio="xMidYMid meet">
+                                        <metadata>
+                                            Created by potrace 1.15, written by Peter Selinger 2001-2017
+                                        </metadata>
+                                        <g transform="translate(0.000000,1189.000000) scale(0.100000,-0.100000)"
+                                            stroke="none">
+                                            <path d="M3250 11884 c-25 -2 -106 -11 -180 -20 -1485 -172 -2704 -1295 -3001
+                                   -2764 -133 -660 -67 -1507 171 -2223 252 -753 675 -1411 1397 -2172 342 -360
+                                   634 -630 1588 -1470 231 -203 488 -430 570 -505 1024 -920 1735 -1692 2346
+                                   -2547 l130 -183 132 0 132 1 130 192 c557 822 1212 1560 2185 2461 191 178
+                                   408 373 1027 923 956 852 1445 1343 1841 1850 643 825 968 1603 1064 2553 19
+                                   196 17 665 -5 835 -105 805 -441 1497 -998 2054 -557 557 -1250 894 -2054 998
+                                   -193 24 -613 24 -810 0 -733 -93 -1379 -387 -1920 -874 -191 -172 -406 -417
+                                   -535 -610 -30 -45 -57 -82 -60 -82 -3 0 -30 37 -60 82 -129 193 -344 438 -535
+                                   610 -531 478 -1170 773 -1878 867 -146 20 -562 34 -677 24z" />
+                                        </g>
+                                    </svg>
+                                </a>
+                                <button class="basket">
+                                    <img src="icons8-корзина-60.png" alt="">
+                                </button>
+                                <a href="">
+                                    <img src="icons8-информация-128.png" alt="">
+                                </a>
+                            </div>
+                            <div class="con-txt">
+                                <h3>Оперативная память HyperX FURY 32GB 3733Mhz Black CL19 (HX437C19FB3K2/32)</h3>
+                                <div class="foter-txt">
+                                    <p class="price">500.00$<span>400.00$</span></p>
+                                </div>
+                            </div>
+                            <div class="stars"><img src="star.svg" alt=""></div>
+                        </div>
+                       
+                    </div>
+                    <div class="content-card">
+                        <div  class="i-card">
+                            <img class="im" src="https://cdn.citilink.ru/AzEbL2HTKt4APTWsh-rItH-Gr6-rble2ESZl4_vVrzQ/resizing_type:fit/gravity:sm/width:1200/height:1200/plain/items/1808886_v01_b.jpg"
+                                alt="">
+                            <div class="con-line">
+                                <a href="javascript:void(0)">
+                                    <svg class="heart" version="1.0" xmlns="http://www.w3.org/2000/svg" width="30px"
+                                        height="30px" viewBox="0 0 1280.000000 1189.000000"
+                                        preserveAspectRatio="xMidYMid meet">
+                                        <metadata>
+                                            Created by potrace 1.15, written by Peter Selinger 2001-2017
+                                        </metadata>
+                                        <g transform="translate(0.000000,1189.000000) scale(0.100000,-0.100000)"
+                                            stroke="none">
+                                            <path d="M3250 11884 c-25 -2 -106 -11 -180 -20 -1485 -172 -2704 -1295 -3001
+                                   -2764 -133 -660 -67 -1507 171 -2223 252 -753 675 -1411 1397 -2172 342 -360
+                                   634 -630 1588 -1470 231 -203 488 -430 570 -505 1024 -920 1735 -1692 2346
+                                   -2547 l130 -183 132 0 132 1 130 192 c557 822 1212 1560 2185 2461 191 178
+                                   408 373 1027 923 956 852 1445 1343 1841 1850 643 825 968 1603 1064 2553 19
+                                   196 17 665 -5 835 -105 805 -441 1497 -998 2054 -557 557 -1250 894 -2054 998
+                                   -193 24 -613 24 -810 0 -733 -93 -1379 -387 -1920 -874 -191 -172 -406 -417
+                                   -535 -610 -30 -45 -57 -82 -60 -82 -3 0 -30 37 -60 82 -129 193 -344 438 -535
+                                   610 -531 478 -1170 773 -1878 867 -146 20 -562 34 -677 24z" />
+                                        </g>
+                                    </svg>
+                                </a>
+                                <button class="basket">
+                                    <img src="icons8-корзина-60.png" alt="">
+                                </button>
+                                <a href="">
+                                    <img src="icons8-информация-128.png" alt="">
+                                </a>
+                            </div>
+                            <div class="con-txt">
+                                <h3>Оперативная память Kingston Fury Beast RGB KF432C16BBAK2/32 DDR4 - 2x 16ГБ 3200, DIMM,
+                                    Ret</h3>
+                                <div class="foter-txt">
+                                    <p class="price">500.00$<span>400.00$</span></p>
+                                </div>
+                            </div>
+                            <div class="stars"><img src="star.svg" alt=""></div>
+                        </div>
+                       
+                    </div>
+                    <div class="content-card">
+                        <div class="i-card">
+                            <img class="im" src="https://cdn.citilink.ru/toscDwKngFXBqWmdUfsW5RAeWh2eV0GD4XcahvWt498/resizing_type:fit/gravity:sm/width:1200/height:1200/plain/items/1633457_v02_b.jpg"
+                                alt="">
+                            <div class="con-line">
+                                <a href="javascript:void(0)">
+                                    <svg class="heart" version="1.0" xmlns="http://www.w3.org/2000/svg" width="30px"
+                                        height="30px" viewBox="0 0 1280.000000 1189.000000"
+                                        preserveAspectRatio="xMidYMid meet">
+                                        <metadata>
+                                            Created by potrace 1.15, written by Peter Selinger 2001-2017
+                                        </metadata>
+                                        <g transform="translate(0.000000,1189.000000) scale(0.100000,-0.100000)"
+                                            stroke="none">
+                                            <path d="M3250 11884 c-25 -2 -106 -11 -180 -20 -1485 -172 -2704 -1295 -3001
+                                   -2764 -133 -660 -67 -1507 171 -2223 252 -753 675 -1411 1397 -2172 342 -360
+                                   634 -630 1588 -1470 231 -203 488 -430 570 -505 1024 -920 1735 -1692 2346
+                                   -2547 l130 -183 132 0 132 1 130 192 c557 822 1212 1560 2185 2461 191 178
+                                   408 373 1027 923 956 852 1445 1343 1841 1850 643 825 968 1603 1064 2553 19
+                                   196 17 665 -5 835 -105 805 -441 1497 -998 2054 -557 557 -1250 894 -2054 998
+                                   -193 24 -613 24 -810 0 -733 -93 -1379 -387 -1920 -874 -191 -172 -406 -417
+                                   -535 -610 -30 -45 -57 -82 -60 -82 -3 0 -30 37 -60 82 -129 193 -344 438 -535
+                                   610 -531 478 -1170 773 -1878 867 -146 20 -562 34 -677 24z" />
+                                        </g>
+                                    </svg>
+                                </a>
+                                <button class="basket">
+                                    <img src="icons8-корзина-60.png" alt="">
+                                </button>
+                                <a href="">
+                                    <img src="icons8-информация-128.png" alt="">
+                                </a>
+                            </div>
+                            <div class="con-txt">
+                                <h3>Оперативная память Kingston Fury Beast Black RGB KF436C17BBAK2/16 DDR4 - 2x 8ГБ 3600,
+                                    DIMM, Ret</h3>
+                                <div class="foter-txt">
+                                    <p class="price">500.00$<span>400.00$</span></p>
+                                </div>
+                            </div>
+                            <div class="stars"><img src="star.svg" alt=""></div>
+                        </div>
+                      
+                    </div>
+                </div>
+
+
+
+                <div class="content">
+                    <div class="content-card">
+                        <div class="i-card">
+                            <img class="im" src="https://c.dns-shop.ru/thumb/st4/fit/500/500/c19a750a1886b79a71cedc38d6df1f74/bc8dbdaaafa72fb0bf4fbe06edc64adddb5f7f9bc747565fddb8cada4320b8d4.jpg.webp"
+                                alt="">
+                            <div class="con-line">
+                                <a href="javascript:void(0)">
+                                    <svg class="heart" version="1.0" xmlns="http://www.w3.org/2000/svg" width="30px"
+                                        height="30px" viewBox="0 0 1280.000000 1189.000000"
+                                        preserveAspectRatio="xMidYMid meet">
+                                        <metadata>
+
+                                        </metadata>
+                                        <g transform="translate(0.000000,1189.000000) scale(0.100000,-0.100000)"
+                                            stroke="none">
+                                            <path d="M3250 11884 c-25 -2 -106 -11 -180 -20 -1485 -172 -2704 -1295 -3001
+                                   -2764 -133 -660 -67 -1507 171 -2223 252 -753 675 -1411 1397 -2172 342 -360
+                                   634 -630 1588 -1470 231 -203 488 -430 570 -505 1024 -920 1735 -1692 2346
+                                   -2547 l130 -183 132 0 132 1 130 192 c557 822 1212 1560 2185 2461 191 178
+                                   408 373 1027 923 956 852 1445 1343 1841 1850 643 825 968 1603 1064 2553 19
+                                   196 17 665 -5 835 -105 805 -441 1497 -998 2054 -557 557 -1250 894 -2054 998
+                                   -193 24 -613 24 -810 0 -733 -93 -1379 -387 -1920 -874 -191 -172 -406 -417
+                                   -535 -610 -30 -45 -57 -82 -60 -82 -3 0 -30 37 -60 82 -129 193 -344 438 -535
+                                   610 -531 478 -1170 773 -1878 867 -146 20 -562 34 -677 24z" />
+                                        </g>
+                                    </svg>
+                                </a>
+                                <button class="basket">
+                                    <img src="icons8-корзина-60.png" alt="">
+                                </button>
+                                <a href="">
+                                    <img src="icons8-информация-128.png" alt="">
+                                </a>
+                            </div>
+                            <div class="con-txt">
+                                <h3>Видеокарта KFA2 GeForce RTX 3060 Ti SG 1-Click OC Plus [36ISM6MD1GSK]</h3>
+                                <div class="foter-txt">
+                                    <p class="price">500.00$<span>400.00$</span></p>
+                                </div>
+                            </div>
+                            <div class="stars"><img src="star.svg" alt=""></div>
+                        </div>
+                        
+                    </div>
+                    <div class="content-card">
+                        <div class="i-card">
+                            <img class="im" src="https://c.dns-shop.ru/thumb/st4/fit/500/500/e9f309d4a58bbe3c96417c88c600d2db/b8bb3f7d7365c63ccacde15b305c5353162e4546f5637d035b6f9efeb65e3c9b.png.webp"
+                                alt="">
+                            <div class="con-line">
+                                <a href="javascript:void(0)">
+                                    <svg class="heart" version="1.0" xmlns="http://www.w3.org/2000/svg" width="30px"
+                                        height="30px" viewBox="0 0 1280.000000 1189.000000"
+                                        preserveAspectRatio="xMidYMid meet">
+                                        <metadata>
+                                            Created by potrace 1.15, written by Peter Selinger 2001-2017
+                                        </metadata>
+                                        <g transform="translate(0.000000,1189.000000) scale(0.100000,-0.100000)"
+                                            stroke="none">
+                                            <path d="M3250 11884 c-25 -2 -106 -11 -180 -20 -1485 -172 -2704 -1295 -3001
+                                   -2764 -133 -660 -67 -1507 171 -2223 252 -753 675 -1411 1397 -2172 342 -360
+                                   634 -630 1588 -1470 231 -203 488 -430 570 -505 1024 -920 1735 -1692 2346
+                                   -2547 l130 -183 132 0 132 1 130 192 c557 822 1212 1560 2185 2461 191 178
+                                   408 373 1027 923 956 852 1445 1343 1841 1850 643 825 968 1603 1064 2553 19
+                                   196 17 665 -5 835 -105 805 -441 1497 -998 2054 -557 557 -1250 894 -2054 998
+                                   -193 24 -613 24 -810 0 -733 -93 -1379 -387 -1920 -874 -191 -172 -406 -417
+                                   -535 -610 -30 -45 -57 -82 -60 -82 -3 0 -30 37 -60 82 -129 193 -344 438 -535
+                                   610 -531 478 -1170 773 -1878 867 -146 20 -562 34 -677 24z" />
+                                        </g>
+                                    </svg>
+                                </a>
+                                <button class="basket">
+                                    <img src="icons8-корзина-60.png" alt="">
+                                </button>
+                                <a href="">
+                                    <img src="icons8-информация-128.png" alt="">
+                                </a>
+                            </div>
+                            <div class="con-txt">
+                                <h3>Видеокарта Palit GeForce RTX 3070 GamingPro [NE63070019P2-1041A]</h3>
+                                <div class="foter-txt">
+                                    <p class="price">500.00$<span>400.00$</span></p>
+                                </div>
+                            </div>
+                            <div class="stars"><img src="star.svg" alt=""></div>
+                        </div>
+                        
+                    </div>
+                    <div class="content-card">
+                        <div class="i-card">
+                            <img class="im" src="https://c.dns-shop.ru/thumb/st4/fit/500/500/66458c31a392cb13e959e1d211f323c4/ebb8242de1e5d354c7313329fb0641a7f9599ebebb01c344614e281a8a9b364d.jpg.webp"
+                                alt="">
+                            <div class="con-line">
+                                <a href="v">
+                                    <svg class="heart" version="1.0" xmlns="http://www.w3.org/2000/svg" width="30px"
+                                        height="30px" viewBox="0 0 1280.000000 1189.000000"
+                                        preserveAspectRatio="xMidYMid meet">
+                                        <metadata>
+                                            Created by potrace 1.15, written by Peter Selinger 2001-2017
+                                        </metadata>
+                                        <g transform="translate(0.000000,1189.000000) scale(0.100000,-0.100000)"
+                                            stroke="none">
+                                            <path d="M3250 11884 c-25 -2 -106 -11 -180 -20 -1485 -172 -2704 -1295 -3001
+                                   -2764 -133 -660 -67 -1507 171 -2223 252 -753 675 -1411 1397 -2172 342 -360
+                                   634 -630 1588 -1470 231 -203 488 -430 570 -505 1024 -920 1735 -1692 2346
+                                   -2547 l130 -183 132 0 132 1 130 192 c557 822 1212 1560 2185 2461 191 178
+                                   408 373 1027 923 956 852 1445 1343 1841 1850 643 825 968 1603 1064 2553 19
+                                   196 17 665 -5 835 -105 805 -441 1497 -998 2054 -557 557 -1250 894 -2054 998
+                                   -193 24 -613 24 -810 0 -733 -93 -1379 -387 -1920 -874 -191 -172 -406 -417
+                                   -535 -610 -30 -45 -57 -82 -60 -82 -3 0 -30 37 -60 82 -129 193 -344 438 -535
+                                   610 -531 478 -1170 773 -1878 867 -146 20 -562 34 -677 24z" />
+                                        </g>
+                                    </svg>
+                                </a>
+                                <button class="basket">
+                                    <img src="icons8-корзина-60.png" alt="">
+                                </button>
+                                <a href="">
+                                    <img src="icons8-информация-128.png" alt="">
+                                </a>
+                            </div>
+                            <div class="con-txt">
+                                <h3>Видеокарта ASUS AMD Radeon RX 6750 XT Dual OC Edition [DUAL-RX6750XT-O12G]</h3>
+                                <div class="foter-txt">
+                                    <p class="price">500.00$<span>400.00$</span></p>
+                                </div>
+                            </div>
+                            <div class="stars"><img src="star.svg" alt=""></div>
+                        </div>
+                       
+                    </div>
+                    <div class="content-card">
+                        <div class="i-card">
+                            <img class="im" src="https://c.dns-shop.ru/thumb/st4/fit/500/500/5e6c13eebab958fcc88264c6abb492f0/fab192608dcda7c76a37ba8ba57db83fa395605ecc55208af5a4905f39602717.jpg.webp"
+                                alt="">
+                            <div class="con-line">
+                                <a href="javascript:void(0)">
+                                    <svg class="heart" version="1.0" xmlns="http://www.w3.org/2000/svg" width="30px"
+                                        height="30px" viewBox="0 0 1280.000000 1189.000000"
+                                        preserveAspectRatio="xMidYMid meet">
+                                        <metadata>
+                                            Created by potrace 1.15, written by Peter Selinger 2001-2017
+                                        </metadata>
+                                        <g transform="translate(0.000000,1189.000000) scale(0.100000,-0.100000)"
+                                            stroke="none">
+                                            <path d="M3250 11884 c-25 -2 -106 -11 -180 -20 -1485 -172 -2704 -1295 -3001
+                                   -2764 -133 -660 -67 -1507 171 -2223 252 -753 675 -1411 1397 -2172 342 -360
+                                   634 -630 1588 -1470 231 -203 488 -430 570 -505 1024 -920 1735 -1692 2346
+                                   -2547 l130 -183 132 0 132 1 130 192 c557 822 1212 1560 2185 2461 191 178
+                                   408 373 1027 923 956 852 1445 1343 1841 1850 643 825 968 1603 1064 2553 19
+                                   196 17 665 -5 835 -105 805 -441 1497 -998 2054 -557 557 -1250 894 -2054 998
+                                   -193 24 -613 24 -810 0 -733 -93 -1379 -387 -1920 -874 -191 -172 -406 -417
+                                   -535 -610 -30 -45 -57 -82 -60 -82 -3 0 -30 37 -60 82 -129 193 -344 438 -535
+                                   610 -531 478 -1170 773 -1878 867 -146 20 -562 34 -677 24z" />
+                                        </g>
+                                    </svg>
+                                </a>
+                                <button class="basket">
+                                    <img src="icons8-корзина-60.png" alt="">
+                                </button>
+                                <a href="">
+                                    <img src="icons8-информация-128.png" alt="">
+                                </a>
+                            </div>
+                            <div class="con-txt">
+                                <h3>Видеокарта MSI GeForce RTX 4080 SUPRIM [RTX 4080 16GB SUPRIM]</h3>
+                                <div class="foter-txt">
+                                    <p class="price">500.00$<span>400.00$</span></p>
+                                </div>
+                            </div>
+                            <div class="stars"><img src="star.svg" alt=""></div>
+                        </div>
+                        
+                    </div>
+                    <div class="content-card">
+                        <div class="i-card">
+                            <img class="im" src="https://c.dns-shop.ru/thumb/st4/fit/500/500/2ef0058f2f6254e476a81ba733f31371/2e11031a5c8be0505d02216ec48ec5ec85b28baf8d5a4ca6ae7299b493426a0f.png.webp"
+                                alt="">
+                            <div class="con-line">
+                                <a href="javascript:void(0)">
+                                    <svg class="heart" version="1.0" xmlns="http://www.w3.org/2000/svg" width="30px"
+                                        height="30px" viewBox="0 0 1280.000000 1189.000000"
+                                        preserveAspectRatio="xMidYMid meet">
+                                        <metadata>
+                                            Created by potrace 1.15, written by Peter Selinger 2001-2017
+                                        </metadata>
+                                        <g transform="translate(0.000000,1189.000000) scale(0.100000,-0.100000)"
+                                            stroke="none">
+                                            <path d="M3250 11884 c-25 -2 -106 -11 -180 -20 -1485 -172 -2704 -1295 -3001
+                                   -2764 -133 -660 -67 -1507 171 -2223 252 -753 675 -1411 1397 -2172 342 -360
+                                   634 -630 1588 -1470 231 -203 488 -430 570 -505 1024 -920 1735 -1692 2346
+                                   -2547 l130 -183 132 0 132 1 130 192 c557 822 1212 1560 2185 2461 191 178
+                                   408 373 1027 923 956 852 1445 1343 1841 1850 643 825 968 1603 1064 2553 19
+                                   196 17 665 -5 835 -105 805 -441 1497 -998 2054 -557 557 -1250 894 -2054 998
+                                   -193 24 -613 24 -810 0 -733 -93 -1379 -387 -1920 -874 -191 -172 -406 -417
+                                   -535 -610 -30 -45 -57 -82 -60 -82 -3 0 -30 37 -60 82 -129 193 -344 438 -535
+                                   610 -531 478 -1170 773 -1878 867 -146 20 -562 34 -677 24z" />
+                                        </g>
+                                    </svg>
+                                </a>
+                                <button class="basket">
+                                    <img src="icons8-корзина-60.png" alt="">
+                                </button>
+                                <a href="">
+                                    <img src="icons8-информация-128.png" alt="">
+                                </a>
+                            </div>
+                            <div class="con-txt">
+                                <h3>Видеокарта Palit GeForce RTX 4080 GameRock OC [NED4080S19T2-1030G]</h3>
+                                <div class="foter-txt">
+                                    <p class="price">500.00$<span>400.00$</span></p>
+                                </div>
+                            </div>
+                            <div class="stars"><img src="star.svg" alt=""></div>
+                        </div>
+                       
+                    </div>
+                    <div class="content-card">
+                        <div class="i-card">
+                            <img class="im" src="https://c.dns-shop.ru/thumb/st1/fit/500/500/a46e9d23168197fb55d78ee5dc7c81c5/3462ea2ec113766af0c5b96ec3519326d7899ddc9ac67655c6696b45f4017763.png.webp"
+                                alt="">
+                            <div class="con-line">
+                                <a href="javascript:void(0)">
+                                    <svg class="heart" version="1.0" xmlns="http://www.w3.org/2000/svg" width="30px"
+                                        height="30px" viewBox="0 0 1280.000000 1189.000000"
+                                        preserveAspectRatio="xMidYMid meet">
+                                        <metadata>
+                                            Created by potrace 1.15, written by Peter Selinger 2001-2017
+                                        </metadata>
+                                        <g transform="translate(0.000000,1189.000000) scale(0.100000,-0.100000)"
+                                            stroke="none">
+                                            <path d="M3250 11884 c-25 -2 -106 -11 -180 -20 -1485 -172 -2704 -1295 -3001
+                                   -2764 -133 -660 -67 -1507 171 -2223 252 -753 675 -1411 1397 -2172 342 -360
+                                   634 -630 1588 -1470 231 -203 488 -430 570 -505 1024 -920 1735 -1692 2346
+                                   -2547 l130 -183 132 0 132 1 130 192 c557 822 1212 1560 2185 2461 191 178
+                                   408 373 1027 923 956 852 1445 1343 1841 1850 643 825 968 1603 1064 2553 19
+                                   196 17 665 -5 835 -105 805 -441 1497 -998 2054 -557 557 -1250 894 -2054 998
+                                   -193 24 -613 24 -810 0 -733 -93 -1379 -387 -1920 -874 -191 -172 -406 -417
+                                   -535 -610 -30 -45 -57 -82 -60 -82 -3 0 -30 37 -60 82 -129 193 -344 438 -535
+                                   610 -531 478 -1170 773 -1878 867 -146 20 -562 34 -677 24z" />
+                                        </g>
+                                    </svg>
+                                </a>
+                                <button class="basket">
+                                    <img src="icons8-корзина-60.png" alt="">
+                                </button>
+                                <a href="">
+                                    <img src="icons8-информация-128.png" alt="">
+                                </a>
+                            </div>
+                            <div class="con-txt">
+                                <h3>Видеокарта PowerColor AMD Radeon RX 7900 XTX Red Devil [RX 7900 XTX 24G-E/OC]</h3>
+                                <div class="foter-txt">
+                                    <p class="price">500.00$<span>400.00$</span></p>
+                                </div>
+                            </div>
+                            <div class="stars"><img src="star.svg" alt=""></div>
+                        </div>
+                       
+                    </div>
+                    <div class="content-card">
+                        <div class="i-card">
+                            <img class="im" src="https://c.dns-shop.ru/thumb/st1/fit/500/500/a046d56a92228dc1466ff01cf51dbe4c/4dffa880b8e9bb755e0223ab14c90d020958f77458f14d0ccdb10c775811c310.png.webp"
+                                alt="">
+                            <div class="con-line">
+                                <a href="javascript:void(0)">
+                                    <svg class="heart" version="1.0" xmlns="http://www.w3.org/2000/svg" width="30px"
+                                        height="30px" viewBox="0 0 1280.000000 1189.000000"
+                                        preserveAspectRatio="xMidYMid meet">
+                                        <metadata>
+                                            Created by potrace 1.15, written by Peter Selinger 2001-2017
+                                        </metadata>
+                                        <g transform="translate(0.000000,1189.000000) scale(0.100000,-0.100000)"
+                                            stroke="none">
+                                            <path d="M3250 11884 c-25 -2 -106 -11 -180 -20 -1485 -172 -2704 -1295 -3001
+                                   -2764 -133 -660 -67 -1507 171 -2223 252 -753 675 -1411 1397 -2172 342 -360
+                                   634 -630 1588 -1470 231 -203 488 -430 570 -505 1024 -920 1735 -1692 2346
+                                   -2547 l130 -183 132 0 132 1 130 192 c557 822 1212 1560 2185 2461 191 178
+                                   408 373 1027 923 956 852 1445 1343 1841 1850 643 825 968 1603 1064 2553 19
+                                   196 17 665 -5 835 -105 805 -441 1497 -998 2054 -557 557 -1250 894 -2054 998
+                                   -193 24 -613 24 -810 0 -733 -93 -1379 -387 -1920 -874 -191 -172 -406 -417
+                                   -535 -610 -30 -45 -57 -82 -60 -82 -3 0 -30 37 -60 82 -129 193 -344 438 -535
+                                   610 -531 478 -1170 773 -1878 867 -146 20 -562 34 -677 24z" />
+                                        </g>
+                                    </svg>
+                                </a>
+                                <button class="basket">
+                                    <img src="icons8-корзина-60.png" alt="">
+                                </button>
+                                <a href="">
+                                    <img src="icons8-информация-128.png" alt="">
+                                </a>
+                            </div>
+                            <div class="con-txt">
+                                <h3>Видеокарта GIGABYTE GeForce RTX 4080 EAGLE [GV-N4080EAGLE-16GD]</h3>
+                                <div class="foter-txt">
+                                    <p class="price">500.00$<span>400.00$</span></p>
+                                </div>
+                            </div>
+                            <div class="stars"><img src="star.svg" alt=""></div>
+                        </div>
+                      
+                    </div>
+                    <div class="content-card">
+                        <div class="i-card">
+                            <img class="im" src="https://c.dns-shop.ru/thumb/st1/fit/500/500/06305469ba4d04d2e0d3bb2c4dbdd700/26d92bd79e71905605da1cbd314bad41a25861e743bed280d2f766d864daa3e6.jpg.webp"
+                                alt="">
+                            <div class="con-line">
+                                <a href="javascript:void(0)">
+                                    <svg class="heart" version="1.0" xmlns="http://www.w3.org/2000/svg" width="30px"
+                                        height="30px" viewBox="0 0 1280.000000 1189.000000"
+                                        preserveAspectRatio="xMidYMid meet">
+                                        <metadata>
+                                            Created by potrace 1.15, written by Peter Selinger 2001-2017
+                                        </metadata>
+                                        <g transform="translate(0.000000,1189.000000) scale(0.100000,-0.100000)"
+                                            stroke="none">
+                                            <path d="M3250 11884 c-25 -2 -106 -11 -180 -20 -1485 -172 -2704 -1295 -3001
+                                   -2764 -133 -660 -67 -1507 171 -2223 252 -753 675 -1411 1397 -2172 342 -360
+                                   634 -630 1588 -1470 231 -203 488 -430 570 -505 1024 -920 1735 -1692 2346
+                                   -2547 l130 -183 132 0 132 1 130 192 c557 822 1212 1560 2185 2461 191 178
+                                   408 373 1027 923 956 852 1445 1343 1841 1850 643 825 968 1603 1064 2553 19
+                                   196 17 665 -5 835 -105 805 -441 1497 -998 2054 -557 557 -1250 894 -2054 998
+                                   -193 24 -613 24 -810 0 -733 -93 -1379 -387 -1920 -874 -191 -172 -406 -417
+                                   -535 -610 -30 -45 -57 -82 -60 -82 -3 0 -30 37 -60 82 -129 193 -344 438 -535
+                                   610 -531 478 -1170 773 -1878 867 -146 20 -562 34 -677 24z" />
+                                        </g>
+                                    </svg>
+                                </a>
+                                <button class="basket">
+                                    <img src="icons8-корзина-60.png" alt="">
+                                </button>
+                                <a href="">
+                                    <img src="icons8-информация-128.png" alt="">
+                                </a>
+                            </div>
+                            <div class="con-txt">
+                                <h3>Видеокарта GIGABYTE GeForce RTX 4080 AERO [GV-N4080AERO-16GD]</h3>
+                                <div class="foter-txt">
+                                    <p class="price">500.00$<span>400.00$</span></p>
+                                </div>
+                            </div>
+                            <div class="stars"><img src="star.svg" alt=""></div>
+                        </div>
+                       
+                    </div>
+                </div>
+
+
+                <div class="content">
+                    <div class="content-card">
+                        <div class="i-card">
+                            <img class="im" src="https://c.dns-shop.ru/thumb/st4/fit/500/500/76ce19e3b08d04bcf78f06b59b104348/a4a1a8e7b3715b30403ee5d0b2bc94f4531ffc50e3fb5a54a7377e1d2681b688.png.webp"
+                                alt="">
+                            <div class="con-line">
+                                <a href="javascript:void(0)">
+                                    <svg class="heart" version="1.0" xmlns="http://www.w3.org/2000/svg" width="30px"
+                                        height="30px" viewBox="0 0 1280.000000 1189.000000"
+                                        preserveAspectRatio="xMidYMid meet">
+                                        <metadata>
+
+                                        </metadata>
+                                        <g transform="translate(0.000000,1189.000000) scale(0.100000,-0.100000)"
+                                            stroke="none">
+                                            <path d="M3250 11884 c-25 -2 -106 -11 -180 -20 -1485 -172 -2704 -1295 -3001
+                                   -2764 -133 -660 -67 -1507 171 -2223 252 -753 675 -1411 1397 -2172 342 -360
+                                   634 -630 1588 -1470 231 -203 488 -430 570 -505 1024 -920 1735 -1692 2346
+                                   -2547 l130 -183 132 0 132 1 130 192 c557 822 1212 1560 2185 2461 191 178
+                                   408 373 1027 923 956 852 1445 1343 1841 1850 643 825 968 1603 1064 2553 19
+                                   196 17 665 -5 835 -105 805 -441 1497 -998 2054 -557 557 -1250 894 -2054 998
+                                   -193 24 -613 24 -810 0 -733 -93 -1379 -387 -1920 -874 -191 -172 -406 -417
+                                   -535 -610 -30 -45 -57 -82 -60 -82 -3 0 -30 37 -60 82 -129 193 -344 438 -535
+                                   610 -531 478 -1170 773 -1878 867 -146 20 -562 34 -677 24z" />
+                                        </g>
+                                    </svg>
+                                </a>
+                                <button class="basket">
+                                    <img src="icons8-корзина-60.png" alt="">
+                                </button>
+                                <a href="">
+                                    <img src="icons8-информация-128.png" alt="">
+                                </a>
+                            </div>
+                            <div class="con-txt">
+                                <h3>Материнская плата ASRock Z790 Steel Legend WiFi</h3>
+                                <div class="foter-txt">
+                                    <p class="price">500.00$<span>400.00$</span></p>
+                                </div>
+                            </div>
+                            <div class="stars"><img src="star.svg" alt=""></div>
+                        </div>
+                       
+                    </div>
+                    <div class="content-card">
+                        <div class="i-card">
+                            <img class="im" src="https://c.dns-shop.ru/thumb/st4/fit/500/500/d8a0e2f27bf3af4d3efde9c07c6fdaec/faea0099ba49e24d6d3b360adbb91c681f464e49c42a40183f08ce1ef95b8e53.jpg.webp"
+                                alt="">
+                            <div class="con-line">
+                                <a href="javascript:void(0)">
+                                    <svg class="heart" version="1.0" xmlns="http://www.w3.org/2000/svg" width="30px"
+                                        height="30px" viewBox="0 0 1280.000000 1189.000000"
+                                        preserveAspectRatio="xMidYMid meet">
+                                        <metadata>
+                                            Created by potrace 1.15, written by Peter Selinger 2001-2017
+                                        </metadata>
+                                        <g transform="translate(0.000000,1189.000000) scale(0.100000,-0.100000)"
+                                            stroke="none">
+                                            <path d="M3250 11884 c-25 -2 -106 -11 -180 -20 -1485 -172 -2704 -1295 -3001
+                                   -2764 -133 -660 -67 -1507 171 -2223 252 -753 675 -1411 1397 -2172 342 -360
+                                   634 -630 1588 -1470 231 -203 488 -430 570 -505 1024 -920 1735 -1692 2346
+                                   -2547 l130 -183 132 0 132 1 130 192 c557 822 1212 1560 2185 2461 191 178
+                                   408 373 1027 923 956 852 1445 1343 1841 1850 643 825 968 1603 1064 2553 19
+                                   196 17 665 -5 835 -105 805 -441 1497 -998 2054 -557 557 -1250 894 -2054 998
+                                   -193 24 -613 24 -810 0 -733 -93 -1379 -387 -1920 -874 -191 -172 -406 -417
+                                   -535 -610 -30 -45 -57 -82 -60 -82 -3 0 -30 37 -60 82 -129 193 -344 438 -535
+                                   610 -531 478 -1170 773 -1878 867 -146 20 -562 34 -677 24z" />
+                                        </g>
+                                    </svg>
+                                </a>
+                                <button class="basket">
+                                    <img src="icons8-корзина-60.png" alt="">
+                                </button>
+                                <a href="">
+                                    <img src="icons8-информация-128.png" alt="">
+                                </a>
+                            </div>
+                            <div class="con-txt">
+                                <h3>Материнская плата ASRock B450M Pro4 R2.0</h3>
+                                <div class="foter-txt">
+                                    <p class="price">500.00$<span>400.00$</span></p>
+                                </div>
+                            </div>
+                            <div class="stars"><img src="star.svg" alt=""></div>
+                        </div>
+                      
+                    </div>
+                    <div class="content-card">
+                        <div class="i-card">
+                            <img class="im" src="https://c.dns-shop.ru/thumb/st4/fit/500/500/40bb61d159b7f64af65aa4aa57e025e8/17d44c3c20ab4c738f0c3555f3863c7a32dadb0e7c4f14219408630902a1d158.jpg.webp"
+                                alt="">
+                            <div class="con-line">
+                                <a href="javascript:void(0)">
+                                    <svg class="heart" version="1.0" xmlns="http://www.w3.org/2000/svg" width="30px"
+                                        height="30px" viewBox="0 0 1280.000000 1189.000000"
+                                        preserveAspectRatio="xMidYMid meet">
+                                        <metadata>
+                                            Created by potrace 1.15, written by Peter Selinger 2001-2017
+                                        </metadata>
+                                        <g transform="translate(0.000000,1189.000000) scale(0.100000,-0.100000)"
+                                            stroke="none">
+                                            <path d="M3250 11884 c-25 -2 -106 -11 -180 -20 -1485 -172 -2704 -1295 -3001
+                                   -2764 -133 -660 -67 -1507 171 -2223 252 -753 675 -1411 1397 -2172 342 -360
+                                   634 -630 1588 -1470 231 -203 488 -430 570 -505 1024 -920 1735 -1692 2346
+                                   -2547 l130 -183 132 0 132 1 130 192 c557 822 1212 1560 2185 2461 191 178
+                                   408 373 1027 923 956 852 1445 1343 1841 1850 643 825 968 1603 1064 2553 19
+                                   196 17 665 -5 835 -105 805 -441 1497 -998 2054 -557 557 -1250 894 -2054 998
+                                   -193 24 -613 24 -810 0 -733 -93 -1379 -387 -1920 -874 -191 -172 -406 -417
+                                   -535 -610 -30 -45 -57 -82 -60 -82 -3 0 -30 37 -60 82 -129 193 -344 438 -535
+                                   610 -531 478 -1170 773 -1878 867 -146 20 -562 34 -677 24z" />
+                                        </g>
+                                    </svg>
+                                </a>
+                                <button class="basket">
+                                    <img src="icons8-корзина-60.png" alt="">
+                                </button>
+                                <a href="">
+                                    <img src="icons8-информация-128.png" alt="">
+                                </a>
+                            </div>
+                            <div class="con-txt">
+                                <h3>Материнская плата ASUS TUF GAMING Z690-PLUS WIFI</h3>
+                                <div class="foter-txt">
+                                    <p class="price">500.00$<span>400.00$</span></p>
+                                </div>
+                            </div>
+                            <div class="stars"><img src="star.svg" alt=""></div>
+                        </div>
+                      
+                    </div>
+                    <div class="content-card">
+                        <div class="i-card">
+                            <img class="im" src="https://c.dns-shop.ru/thumb/st1/fit/500/500/ab7f5b2955c598b781ec4c4e31fbc376/1d6efc9a59a28551df5972d23d287051a065ef2238607c0a4b5053b3eddd30de.png.webp"
+                                alt="">
+                            <div class="con-line">
+                                <a href="javascript:void(0)">
+                                    <svg class="heart" version="1.0" xmlns="http://www.w3.org/2000/svg" width="30px"
+                                        height="30px" viewBox="0 0 1280.000000 1189.000000"
+                                        preserveAspectRatio="xMidYMid meet">
+                                        <metadata>
+                                            Created by potrace 1.15, written by Peter Selinger 2001-2017
+                                        </metadata>
+                                        <g transform="translate(0.000000,1189.000000) scale(0.100000,-0.100000)"
+                                            stroke="none">
+                                            <path d="M3250 11884 c-25 -2 -106 -11 -180 -20 -1485 -172 -2704 -1295 -3001
+                                   -2764 -133 -660 -67 -1507 171 -2223 252 -753 675 -1411 1397 -2172 342 -360
+                                   634 -630 1588 -1470 231 -203 488 -430 570 -505 1024 -920 1735 -1692 2346
+                                   -2547 l130 -183 132 0 132 1 130 192 c557 822 1212 1560 2185 2461 191 178
+                                   408 373 1027 923 956 852 1445 1343 1841 1850 643 825 968 1603 1064 2553 19
+                                   196 17 665 -5 835 -105 805 -441 1497 -998 2054 -557 557 -1250 894 -2054 998
+                                   -193 24 -613 24 -810 0 -733 -93 -1379 -387 -1920 -874 -191 -172 -406 -417
+                                   -535 -610 -30 -45 -57 -82 -60 -82 -3 0 -30 37 -60 82 -129 193 -344 438 -535
+                                   610 -531 478 -1170 773 -1878 867 -146 20 -562 34 -677 24z" />
+                                        </g>
+                                    </svg>
+                                </a>
+                                <button class="basket">
+                                    <img src="icons8-корзина-60.png" alt="">
+                                </button>
+                                <a href="">
+                                    <img src="icons8-информация-128.png" alt="">
+                                </a>
+                            </div>
+                            <div class="con-txt">
+                                <h3>Материнская плата ASRock Z690 Pro RS</h3>
+                                <div class="foter-txt">
+                                    <p class="price">500.00$<span>400.00$</span></p>
+                                </div>
+                            </div>
+                            <div class="stars"><img src="star.svg" alt=""></div>
+                        </div>
+                        
+                    </div>
+                    <div class="content-card">
+                        <div class="i-card">
+                            <img class="im" src="https://c.dns-shop.ru/thumb/st4/fit/500/500/21d558cc9e9739f1dfa8a97123e8d698/acb120d5ae4f03c83dced4604c748f4b9efe82f6c090fa7ceff16bd9155c5778.jpg.webp"
+                                alt="">
+                            <div class="con-line">
+                                <a href="javascript:void(0)">
+                                    <svg class="heart" version="1.0" xmlns="http://www.w3.org/2000/svg" width="30px"
+                                        height="30px" viewBox="0 0 1280.000000 1189.000000"
+                                        preserveAspectRatio="xMidYMid meet">
+                                        <metadata>
+                                            Created by potrace 1.15, written by Peter Selinger 2001-2017
+                                        </metadata>
+                                        <g transform="translate(0.000000,1189.000000) scale(0.100000,-0.100000)"
+                                            stroke="none">
+                                            <path d="M3250 11884 c-25 -2 -106 -11 -180 -20 -1485 -172 -2704 -1295 -3001
+                                   -2764 -133 -660 -67 -1507 171 -2223 252 -753 675 -1411 1397 -2172 342 -360
+                                   634 -630 1588 -1470 231 -203 488 -430 570 -505 1024 -920 1735 -1692 2346
+                                   -2547 l130 -183 132 0 132 1 130 192 c557 822 1212 1560 2185 2461 191 178
+                                   408 373 1027 923 956 852 1445 1343 1841 1850 643 825 968 1603 1064 2553 19
+                                   196 17 665 -5 835 -105 805 -441 1497 -998 2054 -557 557 -1250 894 -2054 998
+                                   -193 24 -613 24 -810 0 -733 -93 -1379 -387 -1920 -874 -191 -172 -406 -417
+                                   -535 -610 -30 -45 -57 -82 -60 -82 -3 0 -30 37 -60 82 -129 193 -344 438 -535
+                                   610 -531 478 -1170 773 -1878 867 -146 20 -562 34 -677 24z" />
+                                        </g>
+                                    </svg>
+                                </a>
+                                <button class="basket">
+                                    <img src="icons8-корзина-60.png" alt="">
+                                </button>
+                                <a href="">
+                                    <img src="icons8-информация-128.png" alt="">
+                                </a>
+                            </div>
+                            <div class="con-txt">
+                                <h3>Материнская плата GIGABYTE X670 GAMING X AX</h3>
+                                <div class="foter-txt">
+                                    <p class="price">500.00$<span>400.00$</span></p>
+                                </div>
+                            </div>
+                            <div class="stars"><img src="star.svg" alt=""></div>
+                        </div>
+                       
+                    </div>
+                    <div class="content-card">
+                        <div class="i-card">
+                            <img class="im" src="https://c.dns-shop.ru/thumb/st1/fit/500/500/7b1936bccadd34c2d3ece20c8123a0b0/92e4bc226d2457bc866eed524bcc7fcde803456f38e8b6ce05d35ef339d12bb1.jpg.webp"
+                                alt="">
+                            <div class="con-line">
+                                <a href="javascript:void(0)">
+                                    <svg class="heart" version="1.0" xmlns="http://www.w3.org/2000/svg" width="30px"
+                                        height="30px" viewBox="0 0 1280.000000 1189.000000"
+                                        preserveAspectRatio="xMidYMid meet">
+                                        <metadata>
+                                            Created by potrace 1.15, written by Peter Selinger 2001-2017
+                                        </metadata>
+                                        <g transform="translate(0.000000,1189.000000) scale(0.100000,-0.100000)"
+                                            stroke="none">
+                                            <path d="M3250 11884 c-25 -2 -106 -11 -180 -20 -1485 -172 -2704 -1295 -3001
+                                   -2764 -133 -660 -67 -1507 171 -2223 252 -753 675 -1411 1397 -2172 342 -360
+                                   634 -630 1588 -1470 231 -203 488 -430 570 -505 1024 -920 1735 -1692 2346
+                                   -2547 l130 -183 132 0 132 1 130 192 c557 822 1212 1560 2185 2461 191 178
+                                   408 373 1027 923 956 852 1445 1343 1841 1850 643 825 968 1603 1064 2553 19
+                                   196 17 665 -5 835 -105 805 -441 1497 -998 2054 -557 557 -1250 894 -2054 998
+                                   -193 24 -613 24 -810 0 -733 -93 -1379 -387 -1920 -874 -191 -172 -406 -417
+                                   -535 -610 -30 -45 -57 -82 -60 -82 -3 0 -30 37 -60 82 -129 193 -344 438 -535
+                                   610 -531 478 -1170 773 -1878 867 -146 20 -562 34 -677 24z" />
+                                        </g>
+                                    </svg>
+                                </a>
+                                <button class="basket">
+                                    <img src="icons8-корзина-60.png" alt="">
+                                </button>
+                                <a href="">
+                                    <img src="icons8-информация-128.png" alt="">
+                                </a>
+                            </div>
+                            <div class="con-txt">
+                                <h3>Материнская плата MSI B450M PRO-VDH MAX</h3>
+                                <div class="foter-txt">
+                                    <p class="price">500.00$<span>400.00$</span></p>
+                                </div>
+                            </div>
+                            <div class="stars"><img src="star.svg" alt=""></div>
+                        </div>
+                    
+                    </div>
+                    <div class="content-card">
+                        <div class="i-card">
+                            <img class="im" src="https://c.dns-shop.ru/thumb/st4/fit/500/500/cc6d8efabb9014ea3f6e785044bd0940/701d46da13a50ac0a4f1253f87db436ecb732f51b49b09349ffb15a51f145f05.jpg.webp"
+                                alt="">
+                            <div class="con-line">
+                                <a href="javascript:void(0)">
+                                    <svg class="heart" version="1.0" xmlns="http://www.w3.org/2000/svg" width="30px"
+                                        height="30px" viewBox="0 0 1280.000000 1189.000000"
+                                        preserveAspectRatio="xMidYMid meet">
+                                        <metadata>
+                                            Created by potrace 1.15, written by Peter Selinger 2001-2017
+                                        </metadata>
+                                        <g transform="translate(0.000000,1189.000000) scale(0.100000,-0.100000)"
+                                            stroke="none">
+                                            <path d="M3250 11884 c-25 -2 -106 -11 -180 -20 -1485 -172 -2704 -1295 -3001
+                                   -2764 -133 -660 -67 -1507 171 -2223 252 -753 675 -1411 1397 -2172 342 -360
+                                   634 -630 1588 -1470 231 -203 488 -430 570 -505 1024 -920 1735 -1692 2346
+                                   -2547 l130 -183 132 0 132 1 130 192 c557 822 1212 1560 2185 2461 191 178
+                                   408 373 1027 923 956 852 1445 1343 1841 1850 643 825 968 1603 1064 2553 19
+                                   196 17 665 -5 835 -105 805 -441 1497 -998 2054 -557 557 -1250 894 -2054 998
+                                   -193 24 -613 24 -810 0 -733 -93 -1379 -387 -1920 -874 -191 -172 -406 -417
+                                   -535 -610 -30 -45 -57 -82 -60 -82 -3 0 -30 37 -60 82 -129 193 -344 438 -535
+                                   610 -531 478 -1170 773 -1878 867 -146 20 -562 34 -677 24z" />
+                                        </g>
+                                    </svg>
+                                </a>
+                                <button class="basket">
+                                    <img src="icons8-корзина-60.png" alt="">
+                                </button>
+                                <a href="">
+                                    <img src="icons8-информация-128.png" alt="">
+                                </a>
+                            </div>
+                            <div class="con-txt">
+                                <h3>Материнская плата ASUS ROG STRIX B650-A GAMING WIFI</h3>
+                                <div class="foter-txt">
+                                    <p class="price">500.00$<span>400.00$</span></p>
+                                </div>
+                            </div>
+                            <div class="stars"><img src="star.svg" alt=""></div>
+                        </div>
+                      
+                    </div>
+                    <div class="content-card">
+                        <div class="i-card">
+                            <img class="im" src="https://c.dns-shop.ru/thumb/st4/fit/500/500/8555a74501267ba642ee55b153e043c8/e18e0b41b5179662199ea61486276c02db9cbdb8ec2a07347cc171e30bda08a6.jpg.webp"
+                                alt="">
+                            <div class="con-line">
+                                <a href="javascript:void(0)">
+                                    <svg class="heart" version="1.0" xmlns="http://www.w3.org/2000/svg" width="30px"
+                                        height="30px" viewBox="0 0 1280.000000 1189.000000"
+                                        preserveAspectRatio="xMidYMid meet">
+                                        <metadata>
+                                            Created by potrace 1.15, written by Peter Selinger 2001-2017
+                                        </metadata>
+                                        <g transform="translate(0.000000,1189.000000) scale(0.100000,-0.100000)"
+                                            stroke="none">
+                                            <path d="M3250 11884 c-25 -2 -106 -11 -180 -20 -1485 -172 -2704 -1295 -3001
+                                   -2764 -133 -660 -67 -1507 171 -2223 252 -753 675 -1411 1397 -2172 342 -360
+                                   634 -630 1588 -1470 231 -203 488 -430 570 -505 1024 -920 1735 -1692 2346
+                                   -2547 l130 -183 132 0 132 1 130 192 c557 822 1212 1560 2185 2461 191 178
+                                   408 373 1027 923 956 852 1445 1343 1841 1850 643 825 968 1603 1064 2553 19
+                                   196 17 665 -5 835 -105 805 -441 1497 -998 2054 -557 557 -1250 894 -2054 998
+                                   -193 24 -613 24 -810 0 -733 -93 -1379 -387 -1920 -874 -191 -172 -406 -417
+                                   -535 -610 -30 -45 -57 -82 -60 -82 -3 0 -30 37 -60 82 -129 193 -344 438 -535
+                                   610 -531 478 -1170 773 -1878 867 -146 20 -562 34 -677 24z" />
+                                        </g>
+                                    </svg>
+                                </a>
+                                <button class="basket">
+                                    <img src="icons8-корзина-60.png" alt="">
+                                </button>
+                                <a href="">
+                                    <img src="icons8-информация-128.png" alt="">
+                                </a>
+                            </div>
+                            <div class="con-txt">
+                                <h3>Материнская плата MSI MAG Z790 TOMAHAWK WIFI DDR4</h3>
+                                <div class="foter-txt">
+                                    <p class="price">500.00$<span>400.00$</span></p>
+                                </div>
+                            </div>
+                            <div class="stars"><img src="star.svg" alt=""></div>
+                        </div>
+                       
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="content-card">
+                        <div class="i-card">
+                            <img class="im" src="https://c.dns-shop.ru/thumb/st4/fit/500/500/a21f173b7f5e82b25a2fa19077451375/cc4e8e97df4db77a40f2fa4c493790ef38d8d000c120a85ddf5a151b5d32d5fd.png.webp"
+                                alt="">
+                            <div class="con-line">
+                                <a href="javascript:void(0)">
+                                    <svg class="heart" version="1.0" xmlns="http://www.w3.org/2000/svg" width="30px"
+                                        height="30px" viewBox="0 0 1280.000000 1189.000000"
+                                        preserveAspectRatio="xMidYMid meet">
+                                        <metadata>
+
+                                        </metadata>
+                                        <g transform="translate(0.000000,1189.000000) scale(0.100000,-0.100000)"
+                                            stroke="none">
+                                            <path d="M3250 11884 c-25 -2 -106 -11 -180 -20 -1485 -172 -2704 -1295 -3001
+                                   -2764 -133 -660 -67 -1507 171 -2223 252 -753 675 -1411 1397 -2172 342 -360
+                                   634 -630 1588 -1470 231 -203 488 -430 570 -505 1024 -920 1735 -1692 2346
+                                   -2547 l130 -183 132 0 132 1 130 192 c557 822 1212 1560 2185 2461 191 178
+                                   408 373 1027 923 956 852 1445 1343 1841 1850 643 825 968 1603 1064 2553 19
+                                   196 17 665 -5 835 -105 805 -441 1497 -998 2054 -557 557 -1250 894 -2054 998
+                                   -193 24 -613 24 -810 0 -733 -93 -1379 -387 -1920 -874 -191 -172 -406 -417
+                                   -535 -610 -30 -45 -57 -82 -60 -82 -3 0 -30 37 -60 82 -129 193 -344 438 -535
+                                   610 -531 478 -1170 773 -1878 867 -146 20 -562 34 -677 24z" />
+                                        </g>
+                                    </svg>
+                                </a>
+                                <button class="basket">
+                                    <img src="icons8-корзина-60.png" alt="">
+                                </button>
+                                <a href="">
+                                    <img src="icons8-информация-128.png" alt="">
+                                </a>
+                            </div>
+                            <div class="con-txt">
+                                <h3>ПК MSI MPG Infinite X2 13FX [9S6-B90411-075]</h3>
+                                <div class="foter-txt">
+                                    <p class="price">500.00$<span>400.00$</span></p>
+                                </div>
+                            </div>
+                            <div class="stars"><img src="star.svg" alt=""></div>
+                        </div>
+                     
+                    </div>
+                    <div class="content-card">
+                        <div class="i-card">
+                            <img class="im" src="https://c.dns-shop.ru/thumb/st1/fit/500/500/7faaf54dacfa45623ad44b88fdb1ee46/3c6a71acffce188373d58ccd122fb426d69ff28c7a49432932d606923d33fe0a.jpg.webp"
+                                alt="">
+                            <div class="con-line">
+                                <a href="javascript:void(0)">
+                                    <svg class="heart" version="1.0" xmlns="http://www.w3.org/2000/svg" width="30px"
+                                        height="30px" viewBox="0 0 1280.000000 1189.000000"
+                                        preserveAspectRatio="xMidYMid meet">
+                                        <metadata>
+                                            Created by potrace 1.15, written by Peter Selinger 2001-2017
+                                        </metadata>
+                                        <g transform="translate(0.000000,1189.000000) scale(0.100000,-0.100000)"
+                                            stroke="none">
+                                            <path d="M3250 11884 c-25 -2 -106 -11 -180 -20 -1485 -172 -2704 -1295 -3001
+                                   -2764 -133 -660 -67 -1507 171 -2223 252 -753 675 -1411 1397 -2172 342 -360
+                                   634 -630 1588 -1470 231 -203 488 -430 570 -505 1024 -920 1735 -1692 2346
+                                   -2547 l130 -183 132 0 132 1 130 192 c557 822 1212 1560 2185 2461 191 178
+                                   408 373 1027 923 956 852 1445 1343 1841 1850 643 825 968 1603 1064 2553 19
+                                   196 17 665 -5 835 -105 805 -441 1497 -998 2054 -557 557 -1250 894 -2054 998
+                                   -193 24 -613 24 -810 0 -733 -93 -1379 -387 -1920 -874 -191 -172 -406 -417
+                                   -535 -610 -30 -45 -57 -82 -60 -82 -3 0 -30 37 -60 82 -129 193 -344 438 -535
+                                   610 -531 478 -1170 773 -1878 867 -146 20 -562 34 -677 24z" />
+                                        </g>
+                                    </svg>
+                                </a>
+                                <button class="basket">
+                                    <img src="icons8-корзина-60.png" alt="">
+                                </button>
+                                <a href="">
+                                    <img src="icons8-информация-128.png" alt="">
+                                </a>
+                            </div>
+                            <div class="con-txt">
+                                <h3>ПК HYPERPC DYNAMIC PLUS</h3>
+                                <div class="foter-txt">
+                                    <p class="price">500.00$<span>400.00$</span></p>
+                                </div>
+                            </div>
+                            <div class="stars"><img src="star.svg" alt=""></div>
+                        </div>
+                     
+                    </div>
+                    <div class="content-card">
+                        <div class="i-card">
+                            <img class="im" src="https://c.dns-shop.ru/thumb/st4/fit/500/500/dea48c81f15e85c48d119b23d67eac58/49746bf32a48d064ed2d531b370b955bb4110078748d666c005325373daad1ee.jpg.webp"
+                                alt="">
+                            <div class="con-line">
+                                <a href="javascript:void(0)">
+                                    <svg class="heart" version="1.0" xmlns="http://www.w3.org/2000/svg" width="30px"
+                                        height="30px" viewBox="0 0 1280.000000 1189.000000"
+                                        preserveAspectRatio="xMidYMid meet">
+                                        <metadata>
+                                            Created by potrace 1.15, written by Peter Selinger 2001-2017
+                                        </metadata>
+                                        <g transform="translate(0.000000,1189.000000) scale(0.100000,-0.100000)"
+                                            stroke="none">
+                                            <path d="M3250 11884 c-25 -2 -106 -11 -180 -20 -1485 -172 -2704 -1295 -3001
+                                   -2764 -133 -660 -67 -1507 171 -2223 252 -753 675 -1411 1397 -2172 342 -360
+                                   634 -630 1588 -1470 231 -203 488 -430 570 -505 1024 -920 1735 -1692 2346
+                                   -2547 l130 -183 132 0 132 1 130 192 c557 822 1212 1560 2185 2461 191 178
+                                   408 373 1027 923 956 852 1445 1343 1841 1850 643 825 968 1603 1064 2553 19
+                                   196 17 665 -5 835 -105 805 -441 1497 -998 2054 -557 557 -1250 894 -2054 998
+                                   -193 24 -613 24 -810 0 -733 -93 -1379 -387 -1920 -874 -191 -172 -406 -417
+                                   -535 -610 -30 -45 -57 -82 -60 -82 -3 0 -30 37 -60 82 -129 193 -344 438 -535
+                                   610 -531 478 -1170 773 -1878 867 -146 20 -562 34 -677 24z" />
+                                        </g>
+                                    </svg>
+                                </a>
+                                <button class="basket">
+                                    <img src="icons8-корзина-60.png" alt="">
+                                </button>
+                                <a href="">
+                                    <img src="icons8-информация-128.png" alt="">
+                                </a>
+                            </div>
+                            <div class="con-txt">
+                                <h3>ПК ZET GAMING WARD H252</h3>
+                                <div class="foter-txt">
+                                    <p class="price">500.00$<span>400.00$</span></p>
+                                </div>
+                            </div>
+                            <div class="stars"><img src="star.svg" alt=""></div>
+                        </div>
+                      
+                    </div>
+                    <div class="content-card">
+                        <div class="i-card">
+                            <img class="im" src="https://c.dns-shop.ru/thumb/st1/fit/500/500/474d8ee83b021358a9a7a9d2c77d84ac/ddb020328a362d2aa0afc8ae0bda7e2755b23cbc6936eb4355ed1658ea0899da.jpg.webp"
+                                alt="">
+                            <div class="con-line">
+                                <a href="javascript:void(0)">
+                                    <svg class="heart" version="1.0" xmlns="http://www.w3.org/2000/svg" width="30px"
+                                        height="30px" viewBox="0 0 1280.000000 1189.000000"
+                                        preserveAspectRatio="xMidYMid meet">
+                                        <metadata>
+                                            Created by potrace 1.15, written by Peter Selinger 2001-2017
+                                        </metadata>
+                                        <g transform="translate(0.000000,1189.000000) scale(0.100000,-0.100000)"
+                                            stroke="none">
+                                            <path d="M3250 11884 c-25 -2 -106 -11 -180 -20 -1485 -172 -2704 -1295 -3001
+                                   -2764 -133 -660 -67 -1507 171 -2223 252 -753 675 -1411 1397 -2172 342 -360
+                                   634 -630 1588 -1470 231 -203 488 -430 570 -505 1024 -920 1735 -1692 2346
+                                   -2547 l130 -183 132 0 132 1 130 192 c557 822 1212 1560 2185 2461 191 178
+                                   408 373 1027 923 956 852 1445 1343 1841 1850 643 825 968 1603 1064 2553 19
+                                   196 17 665 -5 835 -105 805 -441 1497 -998 2054 -557 557 -1250 894 -2054 998
+                                   -193 24 -613 24 -810 0 -733 -93 -1379 -387 -1920 -874 -191 -172 -406 -417
+                                   -535 -610 -30 -45 -57 -82 -60 -82 -3 0 -30 37 -60 82 -129 193 -344 438 -535
+                                   610 -531 478 -1170 773 -1878 867 -146 20 -562 34 -677 24z" />
+                                        </g>
+                                    </svg>
+                                </a>
+                                <button class="basket">
+                                    <img src="icons8-корзина-60.png" alt="">
+                                </button>
+                                <a href="">
+                                    <img src="icons8-информация-128.png" alt="">
+                                </a>
+                            </div>
+                            <div class="con-txt">
+                                <h3>ПК ZET GAMING NEO M061</h3>
+                                <div class="foter-txt">
+                                    <p class="price">500.00$<span>400.00$</span></p>
+                                </div>
+                            </div>
+                            <div class="stars"><img src="star.svg" alt=""></div>
+                        </div>
+                       
+                    </div>
+                    <div class="content-card">
+                        <div class="i-card">
+                            <img class="im" src="https://c.dns-shop.ru/thumb/st1/fit/500/500/9b1b23648b30db332ed38c27fb6caf11/1b0f28e627549cf049861cebb47cf966dd9d6be1c910b83414f13c0973337047.jpg.webp"
+                                alt="">
+                            <div class="con-line">
+                                <a href="javascript:void(0)">
+                                    <svg class="heart" version="1.0" xmlns="http://www.w3.org/2000/svg" width="30px"
+                                        height="30px" viewBox="0 0 1280.000000 1189.000000"
+                                        preserveAspectRatio="xMidYMid meet">
+                                        <metadata>
+                                            Created by potrace 1.15, written by Peter Selinger 2001-2017
+                                        </metadata>
+                                        <g transform="translate(0.000000,1189.000000) scale(0.100000,-0.100000)"
+                                            stroke="none">
+                                            <path d="M3250 11884 c-25 -2 -106 -11 -180 -20 -1485 -172 -2704 -1295 -3001
+                                   -2764 -133 -660 -67 -1507 171 -2223 252 -753 675 -1411 1397 -2172 342 -360
+                                   634 -630 1588 -1470 231 -203 488 -430 570 -505 1024 -920 1735 -1692 2346
+                                   -2547 l130 -183 132 0 132 1 130 192 c557 822 1212 1560 2185 2461 191 178
+                                   408 373 1027 923 956 852 1445 1343 1841 1850 643 825 968 1603 1064 2553 19
+                                   196 17 665 -5 835 -105 805 -441 1497 -998 2054 -557 557 -1250 894 -2054 998
+                                   -193 24 -613 24 -810 0 -733 -93 -1379 -387 -1920 -874 -191 -172 -406 -417
+                                   -535 -610 -30 -45 -57 -82 -60 -82 -3 0 -30 37 -60 82 -129 193 -344 438 -535
+                                   610 -531 478 -1170 773 -1878 867 -146 20 -562 34 -677 24z" />
+                                        </g>
+                                    </svg>
+                                </a>
+                                <button class="basket">
+                                    <img src="icons8-корзина-60.png" alt="">
+                                </button>
+                                <a href="">
+                                    <img src="icons8-информация-128.png" alt="">
+                                </a>
+                            </div>
+                            <div class="con-txt">
+                                <h3>ПК ARDOR GAMING NEO M120</h3>
+                                <div class="foter-txt">
+                                    <p class="price">500.00$<span>400.00$</span></p>
+                                </div>
+                            </div>
+                            <div class="stars"><img src="star.svg" alt=""></div>
+                        </div>
+                       
+                    </div>
+                    <div class="content-card">
+                        <div class="i-card">
+                            <img class="im" src="https://c.dns-shop.ru/thumb/st4/fit/500/500/cb84b1b4d51efa528be30b9ac11f48be/7c0293809a600e123ede047e06fc1547a2239f3ff883a60460245609410da150.jpg.webp"
+                                alt="">
+                            <div class="con-line">
+                                <a href="javascript:void(0)">
+                                    <svg class="heart" version="1.0" xmlns="http://www.w3.org/2000/svg" width="30px"
+                                        height="30px" viewBox="0 0 1280.000000 1189.000000"
+                                        preserveAspectRatio="xMidYMid meet">
+                                        <metadata>
+                                            Created by potrace 1.15, written by Peter Selinger 2001-2017
+                                        </metadata>
+                                        <g transform="translate(0.000000,1189.000000) scale(0.100000,-0.100000)"
+                                            stroke="none">
+                                            <path d="M3250 11884 c-25 -2 -106 -11 -180 -20 -1485 -172 -2704 -1295 -3001
+                                   -2764 -133 -660 -67 -1507 171 -2223 252 -753 675 -1411 1397 -2172 342 -360
+                                   634 -630 1588 -1470 231 -203 488 -430 570 -505 1024 -920 1735 -1692 2346
+                                   -2547 l130 -183 132 0 132 1 130 192 c557 822 1212 1560 2185 2461 191 178
+                                   408 373 1027 923 956 852 1445 1343 1841 1850 643 825 968 1603 1064 2553 19
+                                   196 17 665 -5 835 -105 805 -441 1497 -998 2054 -557 557 -1250 894 -2054 998
+                                   -193 24 -613 24 -810 0 -733 -93 -1379 -387 -1920 -874 -191 -172 -406 -417
+                                   -535 -610 -30 -45 -57 -82 -60 -82 -3 0 -30 37 -60 82 -129 193 -344 438 -535
+                                   610 -531 478 -1170 773 -1878 867 -146 20 -562 34 -677 24z" />
+                                        </g>
+                                    </svg>
+                                </a>
+                                <button class="basket">
+                                    <img src="icons8-корзина-60.png" alt="">
+                                </button>
+                                <a href="">
+                                    <img src="icons8-информация-128.png" alt="">
+                                </a>
+                            </div>
+                            <div class="con-txt">
+                                <h3>ПК ARDOR GAMING RAGE H303</h3>
+                                <div class="foter-txt">
+                                    <p class="price">500.00$<span>400.00$</span></p>
+                                </div>
+                            </div>
+                            <div class="stars"><img src="star.svg" alt=""></div>
+                        </div>
+                       
+                    </div>
+                    <div class="content-card">
+                        <div class="i-card">
+                            <img class="im" src="https://c.dns-shop.ru/thumb/st4/fit/500/500/d0357bd85a37cc6ed5f870f4f0e7aea0/b4b8b86391d4927c8747b7d4d7d0d043d35dee19876b81f83f7a728964649b8e.jpg.webp"
+                                alt="">
+                            <div class="con-line">
+                                <a href="javascript:void(0)">
+                                    <svg class="heart" version="1.0" xmlns="http://www.w3.org/2000/svg" width="30px"
+                                        height="30px" viewBox="0 0 1280.000000 1189.000000"
+                                        preserveAspectRatio="xMidYMid meet">
+                                        <metadata>
+                                            Created by potrace 1.15, written by Peter Selinger 2001-2017
+                                        </metadata>
+                                        <g transform="translate(0.000000,1189.000000) scale(0.100000,-0.100000)"
+                                            stroke="none">
+                                            <path d="M3250 11884 c-25 -2 -106 -11 -180 -20 -1485 -172 -2704 -1295 -3001
+                                   -2764 -133 -660 -67 -1507 171 -2223 252 -753 675 -1411 1397 -2172 342 -360
+                                   634 -630 1588 -1470 231 -203 488 -430 570 -505 1024 -920 1735 -1692 2346
+                                   -2547 l130 -183 132 0 132 1 130 192 c557 822 1212 1560 2185 2461 191 178
+                                   408 373 1027 923 956 852 1445 1343 1841 1850 643 825 968 1603 1064 2553 19
+                                   196 17 665 -5 835 -105 805 -441 1497 -998 2054 -557 557 -1250 894 -2054 998
+                                   -193 24 -613 24 -810 0 -733 -93 -1379 -387 -1920 -874 -191 -172 -406 -417
+                                   -535 -610 -30 -45 -57 -82 -60 -82 -3 0 -30 37 -60 82 -129 193 -344 438 -535
+                                   610 -531 478 -1170 773 -1878 867 -146 20 -562 34 -677 24z" />
+                                        </g>
+                                    </svg>
+                                </a>
+                                <button class="basket">
+                                    <img src="icons8-корзина-60.png" alt="">
+                                </button>
+                                <a href="">
+                                    <img src="icons8-информация-128.png" alt="">
+                                </a>
+                            </div>
+                            <div class="con-txt">
+                                <h3>ПК ZET GAMING WARD H283</h3>
+                                <div class="foter-txt">
+                                    <p class="price">500.00$<span>400.00$</span></p>
+                                </div>
+                            </div>
+                            <div class="stars"><img src="star.svg" alt=""></div>
+                        </div>
+                    
+                    </div>
+                    <div class="content-card">
+                        <div class="i-card">
+                            <img class="im" src="https://c.dns-shop.ru/thumb/st1/fit/500/500/15cdcb8d2cd37e7340906c6fe7136412/bf13ddecd9a83213c8d76f5e3820a0ebc412b170ff6ce403b37f325046686acf.jpg.webp"
+                                alt="">
+                            <div class="con-line">
+                                <a href="javascript:void(0)">
+                                    <svg class="heart" version="1.0" xmlns="http://www.w3.org/2000/svg" width="30px"
+                                        height="30px" viewBox="0 0 1280.000000 1189.000000"
+                                        preserveAspectRatio="xMidYMid meet">
+                                        <metadata>
+                                            Created by potrace 1.15, written by Peter Selinger 2001-2017
+                                        </metadata>
+                                        <g transform="translate(0.000000,1189.000000) scale(0.100000,-0.100000)"
+                                            stroke="none">
+                                            <path d="M3250 11884 c-25 -2 -106 -11 -180 -20 -1485 -172 -2704 -1295 -3001
+                                   -2764 -133 -660 -67 -1507 171 -2223 252 -753 675 -1411 1397 -2172 342 -360
+                                   634 -630 1588 -1470 231 -203 488 -430 570 -505 1024 -920 1735 -1692 2346
+                                   -2547 l130 -183 132 0 132 1 130 192 c557 822 1212 1560 2185 2461 191 178
+                                   408 373 1027 923 956 852 1445 1343 1841 1850 643 825 968 1603 1064 2553 19
+                                   196 17 665 -5 835 -105 805 -441 1497 -998 2054 -557 557 -1250 894 -2054 998
+                                   -193 24 -613 24 -810 0 -733 -93 -1379 -387 -1920 -874 -191 -172 -406 -417
+                                   -535 -610 -30 -45 -57 -82 -60 -82 -3 0 -30 37 -60 82 -129 193 -344 438 -535
+                                   610 -531 478 -1170 773 -1878 867 -146 20 -562 34 -677 24z" />
+                                        </g>
+                                    </svg>
+                                </a>
+                                <button class="basket">
+                                    <img src="icons8-корзина-60.png" alt="">
+                                </button>
+                                <a href="">
+                                    <img src="icons8-информация-128.png" alt="">
+                                </a>
+                            </div>
+                            <div class="con-txt">
+                                <h3>ПК ZET GAMING WARD H285</h3>
+                                <div class="foter-txt">
+                                    <p class="price">500.00$<span>400.00$</span></p>
+                                </div>
+                            </div>
+                            <div class="stars"><img src="star.svg" alt=""></div>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+        <div class="about" id="about">
+            <div class="about-title">
+                <div class=""></div>
+                <div class="about-line">
+                    <div class="line1"></div>
+                    <div class="about-txt"></div>"Sell компов и ноутов от "BRO"
+                    <line2></line2>
+                </div>
+                <h2>ХОРОШИЕ РАБОЧИЕ,ДОБРЫЕ,ОТЗЫВЧИВЫЕ ЛЮДИ</h2>
+            </div>
+            <div class="about-card-all">
+                <div class="about-card" onmouseover="moveCardUp(this)" onmouseout="moveCardDown(this)">
+                    <img src="https://www.zastavki.com/pictures/originals/2017Men___Male_Celebrity_Actor_Duane_Johnson_photo_on_white_background_113108_.jpg"
+                        alt="" class="avatar" width="90">
+                    <div class="card-title">
+                        <!-- Дуель Джонсон -->
+                        <h3>Дуель Джонсон</h3>
+                        <p>Лучший продавец года!</p>
+                        <div class="star-line">
+                            <svg width="20" height="13" viewBox="0 0 13 13" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M4.40593 4.26198C4.53687 4.2482 4.64692 4.16832 4.70058 4.04783L6.50009 0L8.2996 4.04756C8.35295 4.16806 8.46301 4.24793 8.59425 4.26172L13 4.72229L9.70651 7.68458C9.60847 7.7726 9.56649 7.90197 9.59374 8.03114L10.5171 12.3634L6.68205 10.1464C6.56792 10.0804 6.43187 10.0806 6.31774 10.1464L2.48269 12.3634L3.40605 8.03114C3.43351 7.90208 3.39143 7.7725 3.29349 7.68469L0 4.72239L4.40593 4.26198Z"
+                                    fill="#F5CC26" />
+                            </svg>
+                            <span>4.3</span>
+                        </div>
+                        <p>Дуель Джонсон,да вам не послышалось,именно он.Любит шутить не по дестки, а иногда может и врезать так, что мало и не покажеться.</p>
+                    </div>
+                </div>
+                <div class="about-card" onmouseover="moveCardUp(this)" onmouseout="moveCardDown(this)">
+                    <img src="https://img2.freepng.ru/20180611/ljg/kisspng-mike-tyson-boxing-united-states-bryan-stevenson-b-5b1ee98556eca2.7879619915287525173561.jpg"
+                        alt="" class="avatar" width="90">
+                    <div class="card-title">
+                        <!-- Дуель Джонсон -->
+                        <h3>Майк Тайсон</h3>
+                        <p>Лучший продавец года!</p>
+                        <div class="star-line">
+                            <svg width="20" height="13" viewBox="0 0 13 13" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M4.40593 4.26198C4.53687 4.2482 4.64692 4.16832 4.70058 4.04783L6.50009 0L8.2996 4.04756C8.35295 4.16806 8.46301 4.24793 8.59425 4.26172L13 4.72229L9.70651 7.68458C9.60847 7.7726 9.56649 7.90197 9.59374 8.03114L10.5171 12.3634L6.68205 10.1464C6.56792 10.0804 6.43187 10.0806 6.31774 10.1464L2.48269 12.3634L3.40605 8.03114C3.43351 7.90208 3.39143 7.7725 3.29349 7.68469L0 4.72239L4.40593 4.26198Z"
+                                    fill="#F5CC26" />
+                            </svg>
+                            <span>4.3</span>
+                        </div>
+                        <p>Майк Тайсон, да он увожает Дуеля, можно сказать два брата, любят шутить на турните, могут уложить любого.</p>
+                    </div>
+                </div>
+                <div class="about-card" onmouseover="moveCardUp(this)" onmouseout="moveCardDown(this)">
+                    <img src="data:image/jpeg;base64,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"
+                        alt="" class="avatar" width="90">
+                    <div class="card-title">
+                        <!-- Дуель Джонсон -->
+                        <h3>This is Ilon Mask</h3>
+                        <p>Лучший продавец года!</p>
+                        <div class="star-line">
+                            <svg width="20" height="13" viewBox="0 0 13 13" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M4.40593 4.26198C4.53687 4.2482 4.64692 4.16832 4.70058 4.04783L6.50009 0L8.2996 4.04756C8.35295 4.16806 8.46301 4.24793 8.59425 4.26172L13 4.72229L9.70651 7.68458C9.60847 7.7726 9.56649 7.90197 9.59374 8.03114L10.5171 12.3634L6.68205 10.1464C6.56792 10.0804 6.43187 10.0806 6.31774 10.1464L2.48269 12.3634L3.40605 8.03114C3.43351 7.90208 3.39143 7.7725 3.29349 7.68469L0 4.72239L4.40593 4.26198Z"
+                                    fill="#F5CC26" />
+                            </svg>
+                            <span>4.3</span>
+                        </div>
+                        <p>Илон Маск, ушел от Nasa или откуда то там, и пришел к нам, потому-что мы намного лучше этих американцов.</p>
+                    </div>
+                </div>
+                <div class="about-card" onmouseover="moveCardUp(this)" onmouseout="moveCardDown(this)">
+                    <img src="https://phonoteka.org/uploads/posts/2023-03/1679413478_phonoteka-org-p-karl-dzhonson-foni-oboi-12.png"
+                        alt="" class="avatar" width="90">
+                    <div class="card-title">
+                        <!-- Дуель Джонсон -->
+                        <h3>Сиджей (Стажер с оружием)</h3>
+                        <p>Лучший продавец года!</p>
+                        <div class="star-line">
+                            <svg width="20" height="13" viewBox="0 0 13 13" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M4.40593 4.26198C4.53687 4.2482 4.64692 4.16832 4.70058 4.04783L6.50009 0L8.2996 4.04756C8.35295 4.16806 8.46301 4.24793 8.59425 4.26172L13 4.72229L9.70651 7.68458C9.60847 7.7726 9.56649 7.90197 9.59374 8.03114L10.5171 12.3634L6.68205 10.1464C6.56792 10.0804 6.43187 10.0806 6.31774 10.1464L2.48269 12.3634L3.40605 8.03114C3.43351 7.90208 3.39143 7.7725 3.29349 7.68469L0 4.72239L4.40593 4.26198Z"
+                                    fill="#F5CC26" />
+                            </svg>
+                            <span>4.3</span>
+                        </div>
+                        <p>Сиджей,его знает каждый, бегает быстрее чем Флэш, ну и не такой слабый как Дуелька и Тайсон, но у него есть и свои плюсы, бегает быстрее, да еще и с автоматиком.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="delivery" id="delivery">
+            <div class="delivery-video">
+                <video
+                    src="https://v4.cdnpk.net/videvo_files/video/free/video0455/large_watermarked/_import_6074c554583810.15262514_FPpreview.mp4"
+                    autoplay muted loop></video>
+            </div>
+            <div class="delivery-footer">
+                <div class="delivery-item">
+                    <div class="item1"><img src="https://img.icons8.com/?size=512&id=w09NL61Lg27t&format=png" alt="">
+                    </div>
+                    <div class="item2">
+                        <p>FREE доставки от "BRO"</p>
+                        <p>Capped ad 228 pe$r order</p>
+                    </div>
+                </div>
+                <div class="delivery-item">
+                    <div class="item1"><img src="https://img.icons8.com/?size=512&id=46052&format=png" alt=""></div>
+                    <div class="item2">
+                        <p>Возврат от "BRO"</p>
+                        <p>В теченее 12 day от "BRO"</p>
+                    </div>
+                </div>
+                <div class="delivery-item">
+                    <div class="item1"><img src="https://img.icons8.com/?size=512&id=x9U4HcNp4Tv2&format=png" alt="">
+                    </div>
+                    <div class="item2">
+                        <p>Безопасная оплата</p>
+                        <p>Любыми банковскими карточками от "BRO"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="contacts" id="contacts">
+            <div class="cont-all">
+                <img src="icons8-лого-man-100.png" alt="" class="logo">
+                <div class="mail"><a href="mailto:gettosamp@gmail.com">gettosamp@gmail.com</a>
+                    <a href="tel:+7(922)345-21-34">+7(922)345-21-34</a>
+                </div>
+                <div class="cont-input">
+                    <form action="">
+                        <input type="email" required placeholder="Введите email">
+                        <button type>SUBSCRIBE<button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
